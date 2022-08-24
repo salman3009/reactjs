@@ -1,0 +1,67 @@
+Week1:
+Web Technologies Introduction
+HTML,Assignment,Assessment 
+
+Week2:
+CSS,Bootstrap 4
+Assignment,Assessment 
+
+Week 3 & 4:
+Javascript,ES6,browser storage,
+json,ajax,real time problem statements
+Assignment,Assessment
+
+Week 5 
+Introduction to Reactjs and Virtual DOM
+How to setup Reactjs project 
+What is functional component 
+state,props and handling events 
+Assignment,Assessment
+
+week 6
+Project 1:Developing Real time library management system 
+Bootstrap 4 and Icons Integration with reactjs 
+Static screen with routing
+internal routing
+
+week 7:
+Form validation
+Storing data in session storage 
+Creating resuable custom component 
+CRUD Operation in frontend 
+
+week 8:
+Setting up json-server for Restapi Call 
+Working with postman
+Integration between frontend and backend 
+Error handling 
+
+Week 9:
+class component introduction 
+Project 2:real time project fetch movie list 
+props and state, handling events 
+fetch api call
+
+week 10:
+Handling authentication and authorization 
+interceptor
+lazy loading 
+types of react hooks 
+
+week 11:
+What is flux and redux 
+unit testing using jest 
+Deployment and hoisting into reat time server 
+
+Week 12:
+Interview preparation 
+Resume preparation
+git and github setup 
+Project evaluation
+Ready for placement 
+=================================================
+
+
+
+
+

@@ -1,0 +1,16 @@
+HTML
+CSS
+Javascript
+Javascript with ES 6 features
+Bootstrap 4
+Icons
+browser storage
+JSON
+Ajax
+Reactjs 18
+Redux
+json-server 
+Rest api 
+React app optimization 
+Jest unit testing
+Host and App in Real world server 

@@ -1,0 +1,125 @@
+
+Section:What is Reactjs?
+
+	React JS Introduction
+	Advantages of React JS
+	Work flow of React JS
+	Scope of React JS
+
+SECTION 2: OVERVIEW OF JSX
+
+	Introduction of Virtual DOM.
+	Difference between JS and JSX.
+	React Components overview
+	Containers and components
+	What is Child Components?
+	What is Namespaced components?
+	What are the JavaScript expressions available in JSX?
+
+SECTION 3: REACT JS ENVIRONMENT SETUPS
+
+	Node setup
+	How to use NPM?
+	How to create package.json and purpose of it?
+	ES6 Introduction and features.
+	Webpack Overview
+	Best IDE for React JS and How to write optimized code in React JS?
+	React JS browser plugins overview.
+
+SECTION 4: A REAL-TIME APPLICATION BY USING REACT JS
+
+	Create a React component with JSX template.
+	How to create Nested Components?
+	What is React JS render?
+	React Props overview.
+	Introduction of Props validation with data types.
+	Flow of States, Initialize states and update states.
+
+SECTION 5: REACT JS FORMS AND UI
+
+	Lists of Form components.
+	Setup Controlled and Uncontrolled form components.
+	Control Input elements.
+	How to set default values on all formats of Input elements.
+	React JS Form validations.
+	How to write Styles?
+	Animations overview
+
+
+
+SECTION 6: REACT JS COMPONENT LIFE CYCLES OVERVIEW
+
+	Initial Render
+	Props Change
+	Stage Change
+	Component willMount
+	Component didMount
+	Component Unmount
+
+SECTION 7: ROUTING IN REACT JS AND OTHER JS CONCEPTS
+
+	Single Page Application Overview.
+	How to configure React Router?
+	History of Router
+	How to Handle Conditional statement in JSX?
+	IIFE in JSX for complex logic overview.
+
+
+
+SECTION 8: EVENT HANDLING IN JSX
+
+	onBlur, onKeyUp, onChange and other useful primary events in React JS.
+	How to Sharing events between the components?
+
+
+
+SECTION 9: HOW TO WRITE STYLES IN REACT JS?
+
+	CSS and inline styles in React JS overview.
+	Introduction to styled components
+
+
+SECTION 10: REACT ROUTER WITH NAVIGATION
+
+	How to Load the router library?
+	Configure the React Router?
+	How to Pass and receive parameters?
+	Integration of React-cookie overview.
+
+SECTION 11: FLUX OVERVIEW(Part of Redux concept)
+
+	What is Flux Architecture?
+	What are the Flux Components available?
+	Stores.
+	Dispatchers.
+	View Controllers.
+	Actions.
+	Views.
+	How Flux works?
+	Flux and React works together.
+
+SECTION 12: REDUX OVERVIEW
+
+	Introduction to One Store.
+	Provider Component
+	Actions.
+	Reducers.
+	sagas
+	Dispatchers
+	View Controllers
+	Selector
+
+
+SECTION 13: UNIT TESTING OVERVIEW
+
+	What are the necessary Tools required for Unit Testing?
+	React Unit Testing overview
+	Introduction to JEST.
+	How to Test React Component?
+	How to Test React Router?
+
+
+
+
+
+
