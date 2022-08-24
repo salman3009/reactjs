@@ -1,0 +1,1241 @@
+1.Javascript is a scripting language use to make webpage dynamic
+2.lightweight,interpretation,object oriented
+3.separation of js code will help the code to be maintainable and pure javascript will make the performance faster
+4.<script>
+// let pattern = /^[0-9]*$/;
+// let text=23232;
+// let result = pattern.test(text);
+// console.log(result);
+
+// let pattern = /^[0-9]*$/;
+// let text="asdfasd";
+// let result = pattern.test(text);
+// console.log(result);
+
+// let pattern = /^[0-9]*$/;
+// let text=23232;
+// let result = pattern.exec(text);
+// console.log(result);
+
+// let pattern = /^[0-9]*$/;
+// let text="asdfasd";
+// let result = pattern.exec(text);
+// console.log(result);
+</script>
+5.chrome browser I have used and I will use Ctrl+shift+i to inspect the tool 
+===================================================================================
+6. function add(){
+    debugger;
+    let add;
+	add=a+b;
+	return add;
+   }
+
+7.
+Range error
+syntax error
+reference error
+
+8.important question
+<script>
+
+console.log(fullName);
+var fullName="salman";
+console.log(fullName);
+
+
+console.log(add());
+function add()
+{
+    return "success";
+}
+</script>  
+
+9.
+<script>
+    "use strict";
+    x = 3.14;  // This will cause an error (x is not defined).
+</script>
+
+
+10.
+<script>
+    "use strict";
+  //  x = 3.14;  // This will cause an error (x is not defined).
+    
+    function details(a,a){
+
+    }
+    details(2,2);
+
+    var var;
+    
+    </script>
+====================================================================================   
+11. 12.
+function add(){
+  alert("hello");
+}     
+add();
+
+
+(function(){
+ alert("hello");
+})();
+
+(function add(){
+ alert("hello");
+})();
+===========================================================================================
+13.
+var is not block scope variable
+function add(){
+
+   {
+      var a=14;
+	  console.log(a);
+   }
+   console.log(a);
+
+
+}
+	
+let is block scope variable:
+function add(){
+
+   {
+      let a=14;
+	  console.log(a);
+   }
+   console.log(a);
+   //it will throw the error
+
+
+}
+	
+14.
+<script>
+let a=10;
+let b="10";
+if(a==b){
+    alert(true);
+}
+if(a===b){
+    alert(true);
+}
+</script>
+//==   will check only value 
+//=== will check value and datatype
+
+15.
+let and const 
+let we can reassign
+const we cannot reassign the value
+both block scope variable
+===================================================================================	
+16.	
+var data;
+console.log(data); undefined
+var details = null;
+console.log(details);
+
+17.
+function declaration(){
+   return "declaration";
+}
+declaration();
+var expression = function(){
+   return "expression";
+}
+expression();
+
+
+18.
+<script>
+
+setTimeout(()=>{
+
+    alert("salman")
+},4000);
+
+
+setInterval(()=>{
+
+alert("interval salman")
+},2000);
+
+</script>
+
+19.
+<script>
+
+function displayName(input){
+
+    function lastName(){
+        return input;
+    }
+
+    return lastName;
+
+}
+
+const data=displayName("salman");
+console.log(data());
+
+</script>
+
+20.
+<script>
+
+// function displayName(input){
+
+//     function lastName(){
+//         return input;
+//     }
+
+//     return lastName;
+
+// }
+
+// const data=displayName("salman");
+// console.log(data());
+
+
+/* hello */
+</script>
+=========================================================================
+21.
+1.creating objec with constructor
+//simple function
+function vehicle(name,maker,engine){
+    this.name = name;
+    this.maker = maker;
+    this.engine = engine;
+}
+//new keyword to create an object
+let car  = new vehicle('GT','BMW','1998cc');
+//property accessors
+console.log(car.name);
+console.log(car.maker);
+console.log(car['engine']);
+
+2.object literal:
+<script>
+
+//simple function
+function vehicle(name,maker,engine){
+    this.name = name;
+    this.maker = maker;
+    this.engine = engine;
+}
+//new keyword to create an object
+let car  = new vehicle('GT','BMW','1998cc');
+//property accessors
+console.log(car.name);
+console.log(car.maker);
+console.log(car['engine']);
+
+</script>
+
+3.object.create:
+const coder = {
+    isStudying : false,
+    printIntroduction : function(){
+        console.log(`My name is ${this.name}. Am I studying?: ${this.isStudying}`);
+    }
+};
+const me = Object.create(coder);
+me.name = 'Mukul';
+me.isStudying = true;
+me.printIntroduction();
+=======================================================
+22.
+<script>
+
+var age=45; //global scope
+
+function addition(){
+    var a=56; //localscope
+}
+
+</script>
+=======================================
+23.
+<script>
+
+console.log(this);
+console.log(this.alert("dd"));
+console.log(alert("dd"));
+
+</script>
+=====================================
+24.
+<script>
+
+//simple function
+function vehicle(name,maker,engine){
+    this.name = name;
+    this.maker = maker;
+    this.engine = engine;
+}
+
+vehicle.prototype.commonDetails = "Tata";
+//new keyword to create an object
+let car  = new vehicle('GT','BMW','1998cc');
+let car2  = new vehicle('dd','kia','sonet');
+//property accessors
+console.log(car.name);
+console.log(car.maker);
+console.log(car['engine']);
+console.log(car.commonDetails);
+console.log(car.commonDetails);
+
+</script>
+==============================================
+26.
+An anonymous function is a function without a name. The following shows how to define an anonymous function:
+(function () {
+   //...
+});
+=================================================
+27,Prototype inheritance
+
+//simple function
+function vehicle(name,maker,engine){
+    this.name = name;
+    this.maker = maker;
+    this.engine = engine;
+}
+
+vehicle.prototype.commonDetails = "Tata";
+==============================================
+30.
+1 . Using assignment operator
+var array = [];
+var array2 = [1,2,3,4,5];
+//it will change the original when we copy
+
+2. Using new operator
+<script>
+var arr = new Array(2);
+arr[0]=34;
+arr[1]=44;
+var copyArr = arr;
+copyArr[0]=44;
+console.log(copyArr);
+console.log(arr);
+
+
+</script>
+//it will change the original when we copy
+
+3. Using Array.from
+<script>
+var arr = Array.from({length : 2});
+arr[0] = 1; arr[1] = 2;
+var arrCopy = Array.from(arr);
+arrCopy[0]=2;
+console.log(arr);
+console.log(arrCopy);
+</script>
+//it will create one more copy of array
+
+4.
+4. Usign Spread operator
+var arr =  [1,2,3,4,5]
+var array2 = [ ...arr ]
+array2; // [1,2,3,4,5]
+
+5. Using Array
+Creates a new array with the arguments as items. The length of the array is set to the number of arguments.
+var array = Array(1,2,3,4,5);
+array; // [1,2,3,4,5]
+If we pass single number argument , then the Array constructor will create a new Array of the length equivalent to the argument
+var array= Array(5);
+array; //[empty x 5]
+
+
+6.6. Using Array.of
+It is similar to Array constructor . But
+. Array.of(5) → [5]
+Array(5) → [empty x 5]
+var array = Array.of(5);
+array; / [5]
+var array2 = Array.of(1,2,3,4,5,6, "string");
+array2; // [1, 2, 3, 4, 5, 6, "string"]
+=======================================================================
+31.
+let obj={
+    "doorNo":22,
+    "address":"chennai"
+};
+
+localStorage.setItem("token","salman");
+const result = localStorage.getItem("token");
+alert(result);
+localStorage.setItem("address",JSON.stringify(obj));
+
+const statusData1 = localStorage.getItem("address");
+console.log(typeof statusData1);
+
+const statusData = JSON.parse(localStorage.getItem("address"));
+console.log(typeof statusData);
+
+</script>
+
+
+<script>
+let obj={
+    "doorNo":22,
+    "address":"chennai"
+};
+
+sessionStorage.setItem("token","salman");
+const result = sessionStorage.getItem("token");
+alert(result);
+sessionStorage.setItem("address",JSON.stringify(obj));
+
+const statusData1 = sessionStorage.getItem("address");
+console.log(typeof statusData1);
+
+const statusData = JSON.parse(sessionStorage.getItem("address"));
+console.log(typeof statusData);
+
+
+</script>
+
+
+<script>
+
+document.cookie = "name=oeschger; SameSite=None; Secure";
+document.cookie = "favorite_food=tripe; SameSite=None; Secure";
+
+function showCookies() {
+  const output = document.getElementById('cookies')
+  output.textContent = '> ' + document.cookie
+}
+
+function clearOutputCookies() {
+  const output = document.getElementById('cookies')
+  output.textContent = ''
+}
+
+</script>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="showCookies()">Show cookies</button>
+
+        <button onclick="clearOutputCookies()">
+          Clear
+        </button>
+        
+        <div>
+          <code id="cookies"></code>
+        </div>
+    </body>
+</html>
+
+====================================================================
+32.
+push -- will add the data at the end of the array
+unshift -- will add the data at the front of the array
+pop - will remove the add at the end of the array
+shift -- will remove the data at the front of the array.
+===========================================================
+41.
+onClick()
+onChange()
+onBlur()
+onFocus()
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+   alert("hello");
+}
+</script>
+</head>
+<body>
+
+<p onclick="myFunction()">Doubleclick this paragraph to trigger a function.</p>
+
+<input type="text" onchange="myFunction()"/>
+
+<input type="text" onfocus="myFunction()"/>
+
+
+</body>
+</html>
+
+
+=====================================================
+44.
+<script>
+let array= Array();
+console.log(array);
+
+let array2= [];
+console.log(array2);
+
+</script>
+=======================================================
+45.
+<script>
+// let input = "salman is a developer and salman is full stack developer";
+// let output =input.replace("salman","saran");
+// console.log(output);
+
+// let input = "salman is a developer and salman is full stack developer";
+// let output =input.replace(/salman/g,"saran");
+// console.log(output);
+
+let input = "salman is a developer and Salman is full stack developer";
+let output =input.replace(/salman/gi,"saran");
+console.log(output);
+</script>
+====================================================
+46.
+<script>
+let obj={
+    fullName:"salman";
+}
+console.log(obj.fullName);
+console.log(obj['fullName']);
+
+</script>
+==============================================
+50.
+Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript, however, in anonymous functions in JavaScript, we use only the function keyword without the function name.
+
+An anonymous function is not accessible after its initial creation, it can only be accessed by a variable it is stored in as a function as a value. An anonymous function can also have multiple arguments, but only one expression.
+<script>
+  //anonymous function
+  var greet = function () {
+      console.log("Welcome to GeeksforGeeks!");
+  };
+    
+  greet();
+
+  </script>
+============================================
+51
+<script>
+  //anonymous function
+  var nonAnonymousFunction = function (a) {
+  return function (b) {
+    console.log("Non anonymous param: "
+      + a + " Anonymous param: " + b);
+  };
+}
+
+nonAnonymousFunction("Hello")("World"); //
+
+
+  </script>
+
+========================================================
+52.
+The arguments object in JavaScript is an array-like object accessible inside functions that contain the values of the arguments passed to that function. It’s very useful when we want to access or know the number of arguments that were passed to a function.
+<script>
+function myFunction(a, b, c){
+ console.log(arguments[0]);   // expected output: 1
+ console.log(arguments[1]);   // expected output: 2
+ console.log(arguments[2]);   // expected output: 3
+}
+myFunction(1,2,3);
+
+  </script>
+
+=============================================================
+54.
+<script>
+function myFunction(a, b, c){
+ console.log(arguments[0]);   // expected output: 1
+ console.log(arguments[1]);   // expected output: 2
+ console.log(arguments[2]);   // expected output: 3
+ console.log(arguments.length);
+}
+myFunction(1,2,3);
+
+  </script>
+
+============================================================
+55.
+function func() {
+ return arguments.callee;
+}
+func(); 
+===================================================
+56.
+<script>
+let a=10;
+
+function addition(){
+    let a = 20;
+    console.log(a);
+}
+addition();
+
+
+</script>
+=====================================================
+57.
+<script>
+var details=[
+  {
+    id:1,
+    name:"salman"
+  },
+  {
+    id:2,
+    name:"saran"
+  },
+  {
+    id:3,
+    name:"akash"
+  }
+];
+
+var result = details.filter((obj)=>{
+  return obj.name == "saran";
+});
+console.log(result);
+
+</script>
+=============================================
+58.
+<script>
+var name="salman";
+console.log(name.charAt(0))
+
+</script>
+=========================================
+59.
+<script>
+var name="salman";
+var age = "22";
+var result = name + age;
+console.log(result);
+var result = name.concat(age);
+console.log(result);
+
+</script>
+==============================================
+60.
+<script>
+var array=[2,45,12,45];
+array.forEach((obj)=>{
+  console.log(obj);
+});
+
+for(let obj of array){
+  console.log(obj);
+}
+
+</script>
+==============================================
+61.
+<script>
+var result = "salman is a developer";
+console.log(result.indexOf('z'));
+</script>
+===============================================
+62.
+<script>
+var result = "salman is a developer";
+console.log(result.length);
+</script>
+================================================
+63,64
+<script>
+var result = [1,2,3,4,5];
+result.pop();//will remove end of the array
+result.push(5);//it will add at the end of the array.
+console.log(result.length);
+</script>
+================================================
+65.
+<script>
+var result = [1,2,3,4,5];
+result.pop();//will remove end of the array
+result.push(5);//it will add at the end of the array.
+console.log(result.reverse());
+</script>
+====================================================
+66.
+<script>
+    var array=[5,3,4,2,1];
+    var result = array.sort();
+    console.log(result);
+    array=['b','d','a','c'];
+    var result = array.sort();
+    console.log(result);
+</script>
+===========================================
+67.
+<script>
+ var fullName = "salman";
+ var result = fullName.substr(0,4);
+ console.log(result);
+</script>
+================================================
+68.
+<script>
+ var fullName = "SALMAN";
+ var result = fullName.toLocaleLowerCase();
+ console.log(result);
+</script>
+==================================================
+69.
+<script>
+ var fullName = "salman";
+ var result = fullName.toLocaleUpperCase();
+ console.log(result);
+</script>
+==================================================
+70.
+<script>
+var age = 23;
+var result = age.toString();
+console.log(typeof result);
+</script>
+===============================================
+74.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.location="https://google.com";
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+==================================================
+75.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The window.print() Method</h2>
+
+<p>Click the button to print the current page.</p>
+
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
+==============================================================
+76.
+<script>
+let date = new Date();
+console.log(typeof date);
+let result = date.toString();
+console.log(typeof result);
+
+<!-- getFullYear()	
+getMonth()	
+getDate() -->
+
+<!-- setDate()	
+setFullYear()	
+setMonth() -->
+</script>
+
+==============================================================
+77.
+<script>
+let age = 44;
+let phone = new Number(22);
+console.log(age,phone);
+console.log(typeof age,typeof phone);
+let result = age + phone;
+console.log(result);
+</script>
+
+=======================================================
+78.
+<script>
+function addition(a,b){
+    try{
+     let result = a+b;
+    }catch(err){
+       console.log(err);
+    }
+}
+</script>
+
+=======================================================
+79.
+<img src="image.gif" onerror="myFunction()">
+
+<script>
+function myFunction() {
+  alert('The image could not be loaded.');
+}
+</script>
+=======================================================
+82.
+<form>
+    <input type="checkbox" id="1" value="tea" name="tea"/> Tea
+    <input type="checkbox" id="2" value="coffee" name="coffee" checked/> coffee
+</form>
+
+<script>
+var status = document.getElementById('1').checked;
+alert(status);
+var status = document.getElementById('2').checked;
+alert(status);
+</script>
+=============================================================
+84.
+Math.PI
+Math.floor(4.2); 4
+Math.ceil(4.2); 5
+Math.round(4.2); 4
+Math.pow(8, 2); 64
+Math.sqrt(64); 8
+Math.abs(-4.7); 4.7
+Math.random();
+==============================================================
+87.
+<script>
+    let data = Number("aaa");
+    console.log(data);
+</script>
+================================================================
+91.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Prompt</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
+===========================================================
+94
+Nested function:
+     <script type = "text/javascript">
+         <!--
+            function hypotenuse(a, b) {
+               function square(x) { return x*x; }
+               return Math.sqrt(square(a) + square(b));
+            }
+            function secondFunction() {
+               var result;
+               result = hypotenuse(1,2);
+               document.write ( result );
+            }
+         //-->
+      </script>
+	  
+
+first class function:
+function add(x, y) {  
+    return x + y;  
+}  
+let sum = add;  
+=======================================================
+99.
+<script>
+    var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
+var person2 = {firstName: 'Kelly', lastName: 'King'};
+
+function say(greeting) {
+    console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
+}
+
+say.call(person1, 'Hello'); // Hello Jon Kuperman
+say.call(person2, 'Hello'); // Hello Kelly King
+</script>
+
+<script>
+    var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
+var person2 = {firstName: 'Kelly', lastName: 'King'};
+
+function say(greeting,details) {
+    console.log(details + greeting + ' ' + this.firstName + ' ' + this.lastName);
+}
+
+say.apply(person1, ['Hello','data']); // Hello Jon Kuperman
+say.apply(person2, ['Hello','salman']); // Hello Kelly King
+</script>
+
+
+<script>
+    var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
+var person2 = {firstName: 'Kelly', lastName: 'King'};
+
+function say() {
+    console.log('Hello ' + this.firstName + ' ' + this.lastName);
+}
+
+var sayHelloJon = say.bind(person1);
+var sayHelloKelly = say.bind(person2);
+
+sayHelloJon(); // Hello Jon Kuperman
+sayHelloKelly(); // Hello Kelly King
+</script>
+https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
+====================================================================================
+101.
+<!-- <script>
+Array.prototype.average=function()
+{
+    var sum=this.reduce((cur,value)=>cur+value);
+    return sum/this.length;
+}
+let avg=[2,2];
+let result=avg.average();
+console.log(result);
+</script> -->
+
+<script>
+    Array.prototype.push=function()
+    {
+        var sum=this.reduce((cur,value)=>cur+value);
+        return sum/this.length;
+    }
+    let avg=[2,2];
+    let result=avg.push();
+    console.log(result);
+    </script>
+============================================================
+103.
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  }
+}
+
+let myCar = new Model("Ford", "Mustang");
+document.getElementById("demo").innerHTML = myCar.show();
+=============================================================
+110.
+https://www.javatpoint.com/innertext-vs-innerhtml#:~:text=Differene%20between%20innerText%20and%20innerHTML&text=Retrieves%20and%20sets%20the%20content,not%20insert%20the%20HTML%20tags.
+================================================================
+111.
+<style>
+  body * {
+    margin: 10px;
+    border: 1px solid blue;
+  }
+</style>
+
+<script>
+  function p(event){
+    event.stopPropagation();
+    alert('p')
+  }
+  function form(event){
+    event.stopPropagation();
+    alert('form')
+  }
+  function div(event){
+    event.stopPropagation();
+    alert('div')
+  }
+</script>
+<form onclick=form(event)>FORM
+  <div onclick=div(event)>DIV
+    <p onclick=p(event)>P</p>
+  </div>
+</form>
+=======================================================================
+116.
+<script>
+  var result =0;
+  function a(input){
+   console.log("function a is calling");
+   result+=input;
+   if(result<=10){
+    a(1);
+   }
+  }
+
+  a(1);
+
+
+</script>
+====================================================
+119.
+<script>
+var result = "salman";
+console.log(result instanceof String);
+
+
+var result = new String("salman");
+console.log(result instanceof String);
+
+</script>
+========================================================
+122.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>some text and a <span style="visibility: hidden">span tag hidden</span>in it</p>
+<script>
+  console.log(document.querySelector('p').textContent);
+console.log(document.querySelector('p').innerText);
+</script>
+</body>
+</html>
+=======================================================
+123.
+
+A NodeList is an array-like object that represents a collection of DOM elements or more specifically nodes. It is just like an array, but you can not use the common array methods like map(), slice(), and filter() on a NodeList object.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <p class="heading">Hello</p>
+ <p class="heading">world</p>
+ <p class="heading">India</p>
+ <p class="heading">Tamil Nadu</p>
+<!-- <script>
+ let result = document.querySelectorAll('p');
+ console.log(result.length);
+ result.forEach((obj)=>{
+   console.log(obj);
+ })
+</script> -->
+<script>
+  let result = document.getElementsByClassName('heading');
+  console.log(result.length);
+  result.forEach((obj)=>{
+    console.log(obj);
+  })
+ </script>
+</body>
+</html>
+=============================================================
+124.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <p class="heading">Hello</p>
+ <p class="heading">world</p>
+ <p class="heading">India</p>
+ <p class="heading">Tamil Nadu</p>
+<script>
+  let result = document.getElementsByClassName('heading');
+  console.log(result.length);
+  const divsArr = Array.from(result);
+  divsArr.forEach((obj)=>{
+    console.log(obj);
+  })
+ </script>
+</body>
+</html>
+=======================================================
+127.
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+
+</div>
+
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(para);
+</script>
+
+</body>
+</html>
+========================================================
+128.
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Note that the <li> elements inside <ul> are not indented (whitespaces). 
+If they were, the first child node of <ul> would be a text node 
+-->
+<ul id="myList"><li>Coffee</li><li>Tea</li><li>Milk</li></ul>
+
+<p>Click the button to remove the first item from the list.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var list = document.getElementById("myList");
+  list.removeChild(list.childNodes[0]);
+}
+</script>
+
+</body>
+</html>
+===========================================================
+129.
+history.back();//for previous page  
+history.forward();//for next page  
+history.go(2);//for next 2nd page  
+history.go(-2);//for previous 2nd page 
+======================================================
+131.
+<script>
+  function Myfunction(a) {
+        return (b) => {
+           return (c) => {
+             return a + b + c
+             }
+            }
+         }
+ let mini_result  = Myfunction(10);
+ let sub_result = mini_result(20);
+ let result = sub_result(30);
+ console.log(result);        
+</script>
+====================================================
+132.
+<script>
+let address={
+  fullName:"salman",
+  location:"chennai"
+};
+console.log(typeof address);
+console.log(address.fullName);
+let address_string = JSON.stringify(address);
+console.log(typeof address_string);     
+console.log(address_string.fullName);   
+let address_object = JSON.parse(address_string);
+console.log(typeof address_object);
+</script>
+=========================================================
+135.
+<script>
+var operatingSystem = "Unknown OS";
+// Check For Windows
+if (navigator.appVersion.indexOf("Win") !=- 1) operatingSystem = "Windows";
+// Check for Mac
+if (navigator.appVersion.indexOf("Mac") !=- 1) operatingSystem = "MacOS";
+// Check for UNIX
+if (navigator.appVersion.indexOf("X11") !=- 1) operatingSystem = "UNIX";
+// Check for Linux
+if (navigator.appVersion.indexOf("Linux") !=- 1) operatingSystem = "Linux";
+console.log('Your OS: ' + operatingSystem);
+</script>
+================================================================
+136.
+<script>
+let fullName="salman";  //global scope
+{
+  let age = 45;    //block scope
+}
+
+function addition(){  //function scope
+  let a=56;
+}
+</script>
+============================================================
+139.
+{
+  const start = () => {
+    console.log('start')
+  }
+
+  const stop = () => {
+    console.log('stop')
+  }
+  
+  start();
+}
+===============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

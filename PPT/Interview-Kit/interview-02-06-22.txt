@@ -1,0 +1,16 @@
+Interview Question:
+1.double equal to and triple equal 
+2.props in react
+3.state in react 
+4.useState and useEffect
+5.map function and filter function 
+6.authentication and authorization
+7.useEffect ---> componentDidUPdate 
+8.fetch method 
+9.life cycle of components 
+10.redux and life cycle 
+11.useContext
+12.css method 
+13.class and functional component 
+14.html and html 5
+15.git and github 

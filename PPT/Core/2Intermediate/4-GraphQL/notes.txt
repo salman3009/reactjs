@@ -1,0 +1,52 @@
+npm install graphql express express-graphql
+============================================
+1.execute Query:
+{
+    message
+}
+=========================================
+2.
+query gitSingleCourse($courseID:Int!){
+    course(id:$courseID){
+        title
+        author
+        description
+        topic 
+        url
+    }
+}
+QueryVariable:
+{"courseID":1}
+==============================================
+3.
+query data($courseTopic:String){
+    courses(topic:$courseTopic){
+        title
+        author
+        description
+        url
+    }
+}
+{"courseTopic":"Node.js"}
+===================================================
+4.mutation
+
+mutation updateCourseTopic($id:Int!,$topic:String!){
+updateCourseTopic(id:$id,topic:$topic){
+    title,
+    topic
+}
+}
+
+{"topic":"Node.js",
+"id":"1"}
+===============================================
+
+
+
+
+
+
+
+
+
