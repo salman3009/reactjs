@@ -1,0 +1,22 @@
+Attribute:
+align - It will align the content either towards left or right or in center or in justify.
+Example:
+<h1 align="left">content left</h1>
+===============================================
+HTML Entity:
+//Helps to represent special character like <,>,space
+< - &lt;
+> - &gt;
+space - &nsbp; (non breaking space)
+======================================
+anchor tag
+//it is use to navigate from one page to another 
+//it is inline element (any number of tag you use it remain the same line)
+attribute:
+1.href - to provide the link of the page 
+2.target - to open in new tab we need to provide "_blank"
+======================================
+br tag 
+// it is use to break the lines 
+//break 
+=========================

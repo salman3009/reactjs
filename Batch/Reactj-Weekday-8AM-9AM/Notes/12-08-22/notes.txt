@@ -1,0 +1,32 @@
+List of technologies
+Weekwise plan
+Set of project 
+=======================
+Web:
+we are going to communicate with system to another system.
+1.client or user  - any application which we are using.
+2.server - anyone how is going to provide service 
+3.web application - The application is running on internet.
+4.web server - flipkart,amazon,netflix,teams,watsapp
+www -> world wide web 
+5.Web browser- chrome,firefox,opera.
+client ------------------------ server 
+          request/response
+6.We are going to get  latest information from the server.		  
+7.web page : any page that you are going to display in internet will become web page.
+8.HTML language - Hyper Text Markup language 
+//This language is used to design web page.
+https://www.flipkart.com 
+9.hyper text transfer protocol
+//It will help to transfer web page from one location to another location.
+================================
+web application architecture:
+client --- server -- Database 
+presentation - business -- storage 
+===================================
+
+
+
+
+		  
+		  

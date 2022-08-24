@@ -1,0 +1,19 @@
+Adding image to html
+1.download the image 
+2.save the image in particular location where your file is present.
+3.there is no closing tag in image 
+=========================================
+Main category of element we have two parts:
+1.Block
+   h1,h2,h3,h4,h5,h6
+   p 
+   br 
+   ul,ol,li
+   div - plain block element
+2.inline
+    a
+	img
+    span - plain inline element	
+==========================================	
+
+

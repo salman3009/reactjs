@@ -1,0 +1,29 @@
+Inside the Head tag:
+1.title -- > display title of the page 
+2.Meta --> It will provide information about our website to search engine optimization(google chrome,firefox).
+<meta name="description">
+<meta> ---> tag 
+name --->attribute 
+"description" ---> attribute value 
+attribute - extra information about particular tag.
+//meta we don't have closing tag 
+<meta></meta>
+charset - will provide information to search engine that we are using english language in our website.
+==========================================
+HTML element 
+opening tag 
+closing tag 
+content or element content 
+attribute 
+atribute name 
+attribute value 
+=====================================
+Body tag:
+1.heading tag - anywhere you have heading we can utilize the following tag:
+<h1></h1><h2></h2>.....<h6></h6>
+
+
+
+
+
+

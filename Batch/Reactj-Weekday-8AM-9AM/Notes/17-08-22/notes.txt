@@ -1,0 +1,62 @@
+Library:Already predefined classes and code are present. so that
+we can reuse it.
+Framework:similar to library. But we have extra features:
+how to build the application in production 
+project setup 
+how to do the unit testing 
+and some more features.
+
+CSS Framework: bootstrap:
+Javascript Framework: Reactjs 
+========================================================
+1.HTML
+2.CSS
+3.Bootstrap 
+4.Javascript 
+5.Advance Javascript (es6)
+6.JSON
+7.Ajax 
+8.storage 
+9.Reactjs 
+10.Redux 
+11.Git & github 
+====================================================
+HTML - Hyper Text Markup Language 
+Web page - it consists of information.
+Hyper - one information will consists of another information.
+Text - any word 
+Markup - syntax - <element>information</element>  -- 110011011 - output
+language - to communicate with machine 
+website: combination of webpage.
+HTML - it is used to develop layout of the webpage 
+tags - <element>information</element>
+============================================
+HTML 5 
+version - some features will be added and some features will be deprecated(remove)
+===================================================
+structure of html:
+<html>
+   <head>
+     <title>
+     Money - wikipedia
+     </title>
+   </head>
+   <body>
+   
+   </body>
+</html>
+
+filename:hello.html
+=========================================
+visual studio code 
+ctrl+N - to create new file 
+ctrl+s - to the save file 
+filename:1hello.html 
+==========================================
+
+
+
+
+
+
+
