@@ -1,0 +1,95 @@
+github token:
+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
+============================================
+Open the git base:
+
+step1:
+git config --global user.name example
+
+
+step2:
+git config --global user.email example@gmail.com
+
+
+step3:
+ssh-keygen -t rsa -C example@gmail.com
+
+step4:
+notepad ~/.ssh/id_rsa.pub
+
+step5:
+copy the open notepade and paste it inside the github inside the ssh key 
+
+
+step6:
+inside your local system:
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:salman3009/typescript.git
+git push -u origin main
+=====================================================
+1.Install the git in your system
+2.create a account in github 
+3.
+Git bash
+ssh-keygen -t rsa -C "your_email@example.com"
+4.
+notepad ~/.ssh/id_rsa.pub
+5.
+ssh -T git@github.com
+6.create repository on github 
+7.
+git clone url 
+8.git branch 
+9.git status 
+10.git add .
+11.git commit -m "developer connect code"
+12.git push origin master 
+https://www.pluralsight.com/guides/using-git-and-github-on-windows
+===========================================================
+GITHUB PUSH:
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:salman3009/typescript.git
+git push -u origin main
+==================================================
+git checkout -b master 
+git add .
+git commit -m "first commit"
+git push origin master
+===============================================
+next onwards:
+git add .
+git commit -m "first commit"
+git push origin master
+================================================
+GitHub ticket: #MW6335181
+
+35.200.192.162
+34.93.33.40
+34.93.153.98
+=============================================
+old Morning weekday: 8 to 9 
+
+https://teams.microsoft.com/l/meetup-join/19%3a0df98851b4174a24b1c8040d92736bf5%40thread.tacv2/1653843126524?context=%7b%22Tid%22%3a%2217a529d5-e8b6-455f-846d-386923812790%22%2c%22Oid%22%3a%226ae7a793-1d3a-447e-a0a4-12abc23c0234%22%7d
+====================================================
+Weekday 8AM Batch
+credosystemzteams@credosystemzteams.onmicrosoft.com
+Password: Credo@2021
+
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWY5MDdjZTMtM2YyOC00ZTJkLWE2YzktNjJjM2VhNDg2Yzlh%40thread.v2/0?context=%7b%22Tid%22%3a%2217818d52-6a59-47ea-91a3-cad6f1fa167f%22%2c%22Oid%22%3a%222bb2a8e2-876d-4866-bb5e-8f5c564bf18f%22%7d
+
+==================================================
+weekday 9 to 10 
+User Name: credo@credosystemzteams.onmicrosoft.com
+Pwd: Online@2021
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDUyNjUxNzctMTMzNC00MDk5LTk1YTAtYjIxNzc2ZGY3MDE4%40thread.v2/0?context=%7b%22Tid%22%3a%2217818d52-6a59-47ea-91a3-cad6f1fa167f%22%2c%22Oid%22%3a%2202f8db61-aab2-4e02-ae3c-e2e5178a790b%22%7d
+====================================================
+
+
+
