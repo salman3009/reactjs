@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "fullName": "salman",
+      "email": "salman@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "fullName": "salman",
+      "email": "salman@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "fullName": "rajesh",
+      "email": "rajesh@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "users": {
+    "fullName": "salman",
+    "age": 22
+  },
+  "comments": [],
+  "profile": [
+    {
+      "id": 1,
+      "name": "saran",
+      "occupation": "Google developer",
+      "location": "Delhi",
+      "skills": [
+        "c",
+        "Angular",
+        "java"
+      ]
+    }
+  ]
+}
