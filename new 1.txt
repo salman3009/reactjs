@@ -1,0 +1,26 @@
+ol - ordered list 
+ul - unordered list 
+list are block element 
+closing tag is mandatory
+example:
+<ol>
+<li>pen</li>
+<li>pencil</li>
+</ol>
+attribute:
+type = "1" "a" "A" "I"
+start = "5" "c" 
+ul
+<ul type="disc">
+<li>pen</li>
+<li>pencil</li>
+</ul>
+type = "disc" "circle" "square"
+=========================================
+
+
+
+
+
+
+
