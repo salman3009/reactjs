@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useReducer } from 'react';
 import './App.css';
+import UseReducer from './UseReducer';
+import UseRef from './UseRef';
+import UseCallBack from './UseCallBack';
+import UseMemo from './UseMemo';
+import ComponentC from './ComponentC';
+import ComponentA from './ComponentA';
+export const UserContext = React.createContext();
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+           <UseMemo/>
+           <ComponentA/>
+           <UserContext.Provider value={"salman"}>
+           <ComponentC/>
+           </UserContext.Provider>
+          
+           {/* <UseCallBack/> */}
+           {/* <UseRef/> */}
+          {/* <UseReducer/> */}
     </div>
   );
 }
