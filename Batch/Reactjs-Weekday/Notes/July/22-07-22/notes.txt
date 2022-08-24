@@ -1,0 +1,20 @@
+Delete Functionality:
+    const onDeleteHandler=(index)=>{
+        let list = JSON.parse(sessionStorage.getItem('list'));
+        list.splice(index,1);
+        setList([...list]);
+        sessionStorage.setItem('list',JSON.stringify(list));
+    }
+  <td><i onClick={()=>{onDeleteHandler(index)}} className="fa fa-trash" aria-hidden="true"></i></td>
+================================================  
+Edit Function:
+1.onEditHandler() -->Table.js
+2.Modal.js 
+3.onCloseModal() --->Table.js 
+============================================
+
+
+
+
+
+

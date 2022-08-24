@@ -1,0 +1,30 @@
+<script>
+    var source=['d','a','c','z','e'];
+    var destination = source.sort(function(a,b){
+        console.log("value of a",a);
+        console.log("value of b",b);
+         return a-b;
+    });
+    console.log(destination);
+    //ascending order
+
+    var result = source.sort(function(a,b){
+        return b-a;
+    });
+    console.log(result);
+    //descending order
+
+    var details = source.sort();
+    console.log(details);
+
+// var array1 = [1, 30, 4, 21, 100000];
+// array1.sort();
+// console.log(array1);
+
+
+var array1 = [1, 30, 4, 21, 100000];
+array1.sort(function(a,b){
+        return a-b;
+    });
+console.log(array1);
+</script>

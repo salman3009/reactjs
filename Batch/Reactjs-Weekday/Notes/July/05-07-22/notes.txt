@@ -1,0 +1,56 @@
+Notes:
+//To make dynamic data to be updated inside the react application we need to use state.
+//Inside the functional component to use state is not possible before react 16.9.
+//currently with 16.9 version or above you can use state in functional component as well.
+//To use state in functional component we need to use hooks concept.
+//useState()
+Example:
+//current state or updated state (getForm)
+//to update the state.(updateForm)
+const[getForm,updateForm]=useState();
+================================================
+To use useState:
+
+import {useState} from 'react';
+
+  const[getForm,setForm]=useState({
+        productName:'phone',
+        price:'4000'
+    });
+	
+    const onChangeHandler=(event)=>{
+         console.log(event.target.name);
+         console.log(event.target.value);
+        //  price = event.target.value;
+        setForm({
+            ...getForm,
+            [event.target.name]:event.target.value
+        })
+    }
+
+   <div>Product Name:{getForm.productName}</div>
+         <div>Price:{getForm.price}</div>
+==============================================		1.creating functional component 
+2.passing props from one component to another component.
+3.what is state and how to use state.
+4.dynamically handling the state data.
+5.getting data from form and setting it.
+=============================================== 
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+

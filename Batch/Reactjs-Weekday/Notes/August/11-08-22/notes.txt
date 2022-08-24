@@ -1,0 +1,31 @@
+step1:we need setup backend graphql
+
+step2: we need to install the below package
+cmd:npm install @apollo/client
+cmd:npm install graphql
+
+step3:
+we need to provide grapql data to react application 
+import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+const client = new ApolloClient({
+  uri: "https://api.spacex.land/graphql/",
+  cache: new InMemoryCache()
+});
+ReactDOM.render(
+  <ApolloProvider client={client}>
+    <App />
+  </ApolloProvider>,
+  rootElement
+);
+
+step4:
+ // we need to write the query to bring the data 
+ // Before writing query we need to check the accessibility from the backend server 
+ //searchQuery method to execute query and it will return three state
+            1.success
+			2.loading 
+			3.failure 
+//with success state you can able to access the data according to query provided by you.
+================================================
+
+

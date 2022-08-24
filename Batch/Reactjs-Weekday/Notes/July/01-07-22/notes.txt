@@ -1,0 +1,58 @@
+How to Create functional component:
+Example:
+function App(){
+   return (<div>
+      <h1>Hello world</h1>
+	  <br/>
+	  <img/>
+	  <input/>
+	  <h2>programming</h2>
+   </div>)
+}
+export default App;
+
+
+index.js 
+<App/> ----------> custom html 
+<h1></h1>
+======================================
+To change the port number?
+1.to one file called .env inside your project
+2.inside the file PORT=4200
+==========================================
+creating our custom functional component.
+1.create one folder.
+2.Inside the folder create one file and the file name should be in capital letter.
+==========================================
+index.html---->index.js---->app.js---->output
+import Table from './Table/Table';
+
+function App(){
+
+     return (<div>
+       <Table/>
+       <div>Welcome to programming</div>
+       <br/>
+       <h1>Programming to javascript</h1>
+     </div>)
+
+}
+
+export default App;
+================================================
+<input type="text" id="fullName" name="fullName"/>
+attribute extra information about that particular element.
+In react we call them as props.
+===============================
+React.strictMode ----> it will render twice.
+=====================================
+
+
+
+
+
+
+
+
+
+

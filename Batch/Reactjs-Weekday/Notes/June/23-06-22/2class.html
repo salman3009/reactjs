@@ -1,0 +1,37 @@
+<script>
+    //object oriented language 
+    //object protoype language 
+    //objecta--->objectb--->objectc--->objectd---->null
+  //  let result=[];
+   // console.log(result);
+</script>
+
+<script>
+     class Employee{
+
+        constructor(fullName,salary,age){
+            this.fullName = fullName;
+            this.salary = salary;
+            this.age = age;
+        }
+
+        setName(input){
+            this.fullName = input;
+        }
+     }
+
+     let obj = new Employee("salman","4000",55);
+     console.log(obj);
+
+     let resultAkash = new Employee("akash","6000",89);
+     console.log(obj);
+
+     let objPotter = new Employee();
+     console.log(objPotter);
+     objPotter.setName("potter");
+     console.log(objPotter);
+
+
+</script>
+
+

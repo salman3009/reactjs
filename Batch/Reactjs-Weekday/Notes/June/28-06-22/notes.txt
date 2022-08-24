@@ -1,0 +1,39 @@
+If you want to run javascript we can run only in 
+browser
+The compiler for javascript is present only in browser 
+Chrome browser compiler - v8Engine.
+==============================================
+Nodejs --------> run time compiler for javascript
+we can run javscript outside the browser.
+Nodjs -->v8Engine 
+==========================================
+Reactjs ---> directly we cannot run in browser 
+Nodejs --->we are converting all high level code to browser understanable code.
+npm - node package manager
+npm - any javascript package we can download using npm 
+===============================================
+Frontend ->HTML,css,javascript,bootstrap 4
+Reactjs -->library --> building user interface 
+7component -- we can to develop the application
+dynamic component 
+==============================================
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="first" value="10"/>
+        <input type="text" id="second" value="5"/>
+        <p id="demo"></p>
+        <p id="sub"></p>
+        <p id="mul"></p>
+        <p id="div"></p>
+        <p id="mod"></p>
+        <p id="increment"></p>
+        <p id="decrement"></p>
+
+        <script>
+            var a = document.getElementById('first').value;
+            var b = document.getElementById('second').value;
+            var c = Number(a) + Number(b);
+            document.getElementById('demo').innerHTML ="Addition :"+c;
+            c = Number(a) - Number(b);
+            document.getElementById('sub').innerHTML ="subtraction :"+c;
+            c = Number(a) * Number(b);
+            document.getElementById('mul').innerHTML ="multiplication :"+c;
+            c = Number(a) / Number(b);
+            document.getElementById('div').innerHTML ="division :"+c;
+            c = Number(a) % Number(b);
+            document.getElementById('mod').innerHTML ="modulo :"+c;
+            a++;
+            document.getElementById('increment').innerHTML ="increment :"+a;
+            a--;
+            document.getElementById('decrement').innerHTML ="decrement :"+a;
+
+        </script>
+ 
+
+
+  
+
+
+
+    </body>
+</html>

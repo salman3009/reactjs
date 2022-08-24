@@ -1,0 +1,40 @@
+Styling:
+1.class
+2.style 
+
+Reactjs
+<div className="box"></div>
+
+//For each component create separate css file.
+//Give same name as js file.
+
+inline style:
+<div style={}></div>
+{
+ backgroundColor:"red",
+ color:"green",
+ fontWeight:900
+}
+=========================================
+functional component creation 
+state 
+props 
+events 
+handling form 
+class and dynamic style 
+image 
+=========================================
+Real project:
+1.already design template 
+2.bootstrap 4
+3.fontawesome icon 
+4.component creation 
+5.register component 
+6.login component 
+7.header component 
+8.routing
+
+
+
+
+

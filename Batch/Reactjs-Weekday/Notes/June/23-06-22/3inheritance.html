@@ -1,0 +1,28 @@
+<script>
+     class Employee{
+
+        constructor(fullName,salary,age){
+            this.fullName = fullName;
+            this.salary = salary;
+            this.age = age;
+        }
+
+        setName(input){
+            this.fullName = input;
+        }
+     }
+
+     class FoodToken extends Employee{
+
+         constructor(fullName,salary,age,tokenNumber){
+              super(fullName,salary,age);
+              this.tokenNumber = tokenNumber;
+         }
+     }
+
+     let obj = new FoodToken("salman","4000",55,7878);
+     console.log(obj);
+
+</script>
+
+

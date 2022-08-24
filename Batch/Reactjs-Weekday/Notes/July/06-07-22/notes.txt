@@ -1,0 +1,40 @@
+Three Scenario:
+1.passing data from parent component to child component
+Example:Form and Table 
+//directly bind the state data to props.
+2.Passing data from child component to parent component 
+//Having state in both component 
+//from child to parent we registered the event.
+//we can pass data from child to parent using props registered event.
+3.Keeping state in central position example app.js 
+//from app.js we can pass props to child component 
+==============================================
+//keep state in parent component 
+//passing normal props variable when that particular component is going to observer state data.
+Example:table.
+//providing data to state we need to registered eventsts.
+example:form.
+===========================================
+component:
+creating component 
+props 
+state 
+component communication
+styling
+image 
+map function 
+===========================================
+real time project.
+1.routing
+2.hooks
+3.api call and useEffect
+===============================================
+
+
+
+
+
+
+
+
+

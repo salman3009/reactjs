@@ -1,0 +1,38 @@
+Reactjs:
+Router:
+
+step1: install the following package:
+cmd:npm install react-router
+cmd:npm install react-router-dom
+
+step2: go to app.js and import the following package.
+
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+ 
+step3: we need to wrap the entire return statement with BrowserRouter
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+      </BrowserRouter>
+    </div>
+  );
+}
+ 
+Step4:We need to create Routes tag inside that we need to create Route for each and every component which we need to route.
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path="" element={<Register/>}></Route>
+        <Route path="login" element={<Login/>}></Route>
+      </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+==================================================
+==================================

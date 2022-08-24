@@ -1,0 +1,22 @@
+<!-- <script>
+    var source=[11,22,33,44,55,66];
+    var destination = source.slice(0,3);
+    console.log(destination);//11,22,33
+    destination = source.slice(2,5);//33,44,55
+    console.log(destination);
+    console.log("main source",source);
+    //slice will not change the value of original array
+</script> -->
+
+
+
+<script>
+    //splice will change the value of original array
+    var sourceSplice=[11,22,33,44,55,66];
+    var destinationSplice = sourceSplice.splice(0,3);
+    console.log(destinationSplice);//11,22,33
+    console.log(sourceSplice);
+    destinationSplice = sourceSplice.splice(2,5);//33,44,55
+    console.log(destinationSplice);
+    console.log("main source",sourceSplice);
+</script>

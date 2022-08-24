@@ -1,0 +1,14 @@
+SessionStorage -- till that particular tab is open data will be available.
+LocalStorage --> permanent data till we delete this data will be there in our system 
+json
+http -->hyper text transform protocol 
+Get method
+postman ---http get method 
+https ---> browser url will bring you the get method 
+different type of method:
+1.get 
+2.post 
+3.patch
+4.delete 
+postman -->for checking purpose we are using postman backend code.
+=========================================

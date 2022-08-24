@@ -1,0 +1,20 @@
+
+<html>
+    <head></head>
+    <body>
+        fullName:<input type="text" id="fullName" onChange="onChangeHandler()" />
+        <button onClick="onSubmitHandler()">OnSubmit</button>
+    </body>
+</html>
+
+<script>
+    var fullName;
+
+    function onChangeHandler(){
+      fullName = document.getElementById('fullName').value;
+    }
+    function onSubmitHandler(){
+        alert(fullName);
+    }
+
+</script>

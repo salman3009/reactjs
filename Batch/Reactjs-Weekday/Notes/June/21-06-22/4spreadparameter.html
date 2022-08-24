@@ -1,0 +1,44 @@
+<!-- <script>
+    let result=[33,44,55];
+    let details = result;
+    console.log(result);
+    console.log(details);
+    details.push(88);
+    console.log(result);
+    console.log(details);
+
+</script> -->
+
+
+<script>
+    let result=[33,44,55];
+    let details = [...result];
+    console.log(result);
+    console.log(details);
+    details.push(88);
+    console.log(result);
+    console.log(details);
+
+</script>
+
+<script>
+    function addition(...result){
+        result.forEach((obj)=>{
+            console.log(obj);
+        })
+    }
+    addition(33,44,44);
+</script>
+
+
+
+<script>
+    let obj={
+        address:'chennai'
+    }
+    let result = {...obj};
+    
+    // let flag = true;
+    // let status = flag;
+
+</script>

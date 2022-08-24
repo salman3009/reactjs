@@ -1,0 +1,25 @@
+<script>
+    //to handle async code from the backend we are using promise
+    //promise consists of two parameter one is success and failure 
+    
+    //yes or no 
+    function addition(a, b) {
+        return new Promise((success, failure) => {
+            setTimeout(() => {
+                // success(a + b);
+                failure("error");
+            }, 3000)
+        })
+    }
+
+    function result(input) {
+        console.log(input);
+    }
+
+    addition(44, 55).then((res) => {
+        console.log(res);
+        result(res);
+    }, (error) => {
+        console.log(error);
+    });
+</script>

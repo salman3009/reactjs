@@ -1,0 +1,31 @@
+<script>
+    let obj={
+        "fullName":"akash",
+        "age":33,
+        "sum":[44,55,44,22],
+        "address":{
+          "doorNo":3333,
+          "location":"chennai"
+        },
+        "flag":true,
+        "status":null
+    };
+</script>
+
+<script>
+    let result={
+        address:"chennai",
+        location:"yyyy"
+    };
+    let status = true;
+    console.log(result.location);
+    let details = JSON.stringify(result);
+    console.log(details.location);
+    let result2 = JSON.stringify(status);
+    console.log(typeof details);
+    console.log(typeof result);
+    console.log(typeof result2);
+    details = JSON.parse(details);
+    console.log(typeof details);
+    console.log(details.location);
+</script>

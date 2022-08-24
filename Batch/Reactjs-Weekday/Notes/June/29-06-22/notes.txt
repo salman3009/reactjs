@@ -1,0 +1,47 @@
+Reactjs
+1.Functional component ---> first priority
+2.class component 
+=========================================
+SPA --> Single page application 
+If you have huge component then we can use the concept of lazy loading.
+Reactjs -- performance best.
+Virtual DOM 
+ReactNative--- >reactjs concept UI native for android and IOS 
+Reactjs --> Serverside rendering
+================================================
+How to create new project:
+npx create-react-app my-app
+npx - command to download latest code from npmjs.com 
+plugin -- create-react-app 
+my-app --- project-name 
+=====================================
+list of project files:
+1.README.md --- for documentation. we can delete this file as well.
+2..gitignore --> while pushing the code in some repository important file 
+3.package.json --> configuration file. what are the packages you are using. and how to run the project and how to test project all commands will be present inside the package.json 
+//without this we cannot run the project.
+node-modules ---> all package code will be available in the node-modules.
+//suppose node-modules is not there but package.json. 
+command prompt:npm install 
+npm run start  or npm start 
+npm run build 
+npm run test 
+=============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

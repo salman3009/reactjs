@@ -1,0 +1,25 @@
+<script>
+    var city={
+        chennai:{
+            railway:"yes",
+            phoneNumber:232323232,
+            busNumber:[33,55,666,333,11],
+            shortName:"Madras"
+        },
+        bangalore:{
+            railway:"yes",
+            phoneNumber:232323232,
+            busNumber:[22,33,44],
+            shorName:true
+        }
+    }
+    var fullName = "chennai";
+    console.log(city);
+    console.log(city.chennai);
+    console.log(city.chennai.railway);
+    console.log(city.chennai.address);
+    console.log(city.bangalore.busNumber[0]);
+    console.log(city['bangalore']['busNumber'][0]);
+    console.log(city[fullName]);
+    //city.chennai == {}
+</script>

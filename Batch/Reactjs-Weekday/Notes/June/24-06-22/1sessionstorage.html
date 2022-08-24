@@ -1,0 +1,9 @@
+<script>
+sessionStorage.setItem("token","xyz1234");
+sessionStorage.setItem("profile","walter");
+let result = sessionStorage.getItem("token");
+console.log(result);
+setTimeout(()=>{
+    sessionStorage.removeItem("profile");
+},2000)
+</script>

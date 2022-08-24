@@ -1,0 +1,23 @@
+Notes:
+Hooks:
+1.useState
+2.useEffect 
+3.useRef
+4.useReducer
+5.useCallback
+6.useContext - consumer and provider 
+
+To maintain state.
+1.useState 
+2.useReducer 
+
+To pass state from high level component to low level component 
+useContext (for performance) 
+useCallback(to void unwanted rendering)
+useRef(DOM like access of an element) 
+=========================================
+APP.js 
+   A 
+   B 
+   C
+==========================================   

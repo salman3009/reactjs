@@ -1,0 +1,86 @@
+package-lock.json --> It is a extra information about package.json 
+//without package-lock-json the project will run.
+version:"12.3.1" --> 12 major version 3 minor version 1 patch version 
+public folder-->
+index.html --> Entire reactjs project will have only one html file that is index.html 
+<div id="root"></div> ---> entire project is going to run.
+src --> source folder 
+json file 
+.js file 
+.css file 
+filename.test.js -------->testing file 
+==============================================
+Two package is important to run the react 
+1.React 
+2.ReactDOM 
+Virtual DOM 
+Example:
+<html>
+<head>
+</head>
+<body>
+   <table>
+   <tr>
+        <td>Location</td>
+		<td>Delete</td>
+   </tr>
+      <tr>
+        <td>chennai</td>
+		<td>Delete</td>
+   </tr>
+      <tr>
+        <td>bangalore</td>
+		<td>Delete</td>
+   </tr>
+      <tr>
+        <td>vellore</td>
+		<td>Delete</td>
+   </tr>
+   </table>
+</body>
+</html>
+==========================================
+DOM   --> Original DOM and Virtual DOM 
+To run the project --> npm start 
+Ctrl+C --> to stop the project.
+URL: http://localhost:3000/
+Local development it is running on http-server 
+============================================
+index.html ----> div id=root --->index.js--->app.js 
+==========================================
+functional component:
+1.function name should be in capital letter 
+2.function should return something.
+3.react is going to return jsx.
+==========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

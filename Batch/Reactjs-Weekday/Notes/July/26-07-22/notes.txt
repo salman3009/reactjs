@@ -1,0 +1,13 @@
+step1:install the axios package:
+cmd:npm install axios 
+step2: import the package in particular component 
+import axios from 'axios';
+step3:
+syntax:
+        axios.get().then().catch()
+======================================
+get     - url dynamic data  -- body no data
+post    - url dynamic data   --body
+delete  - url dynamic data	 -- body no data 
+patch  -- url dynamic data -- body 
+===========================================	

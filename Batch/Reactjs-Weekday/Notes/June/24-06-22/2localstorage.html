@@ -1,0 +1,9 @@
+<script>
+    localStorage.setItem("token","xyz1234");
+    localStorage.setItem("profile","walter");
+    let result = localStorage.getItem("token");
+    console.log(result);
+    setTimeout(()=>{
+        localStorage.removeItem("profile");
+    },2000)
+    </script>

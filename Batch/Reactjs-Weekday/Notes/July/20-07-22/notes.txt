@@ -1,0 +1,29 @@
+Notes:
+any where we need to route please start with forward slash:
+ navigate('/dashboard');
+
+Inside the login please make it true once everything is successful:
+    sessionStorage.setItem("login",true);
+	
+Suppose you want to trigger after state update we need to use useEffect from react hooks 
+
+Initial load of the component we need to check some condition at that time we need to use useEffect.
+===================================================
+useEffect:
+//it is consists two parameter.
+//first parameter is a callback function.You can write your business logic 
+//second parameter decides how many time we need to call this callback function.
+//in the second parameter if its empty it will call only one time.
+scenario 1: when we need only one time function to be invoked in that particular component 
+scenario 2:whenever there is change in state 
+scenario 3:for multiple state we can use multiple useeffect.
+scenario 4: in single useEffect you can pass multiple state parameter.
+scenario 5: only state and props can be used inside the parameter.
+=================================================
+
+
+
+	
+	
+	
+	

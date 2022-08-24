@@ -1,0 +1,166 @@
+Three types of state management:
+1.local state 
+2.Global state 
+3.central management 
+=====================================
+CreateContext:
+Step1:
+App.js
+import React from 'react';
+export const userContext = React.createContext();
+
+
+step2:
+App.js 
+ <userContext.Provider value={"microsoft"}>
+          <ComponentA fullName="akash"/>
+ </userContext.Provider>
+ 
+step3:
+ComponentC
+import {userContext} from './App';
+
+step4:
+ComponentC
+<userContext.Consumer>
+           {
+               obj=>{
+                   return (<div>{obj}</div>)
+               }
+           }
+</userContext.Consumer>
+============================================= 
+Flux - architecture - Base - Redux 
+Action  ----------->button click
+Dispatcher  ------->what need to be updated in state.
+Store  ----------------> central state 
+View  ------------------->UI Component 
+Action   --------------->button click
+ 
+ 1.view 
+ 2.action 
+ 3.dispatcher 
+ 4.store 
+===================================================
+step1:
+cmd:npm install redux 
+cmd:npm install react-redux 
+
+step2:
+create one folder called reducers 
+index.js 
+user.js 
+list.js 
+
+user.js 
+const initialState = {
+    fullName: '',
+    age: 0
+}
+
+function user(state = initialState, action) {
+
+    switch (action.type) {
+        case 'success':
+            return {
+                ...state,
+                ...action.payload,
+                flag: true
+            }
+
+        case 'failure':
+            return {
+                flag: false
+            }
+
+        default:
+            return state;
+    }
+}
+
+export default user; 
+ 
+list.js 
+const initalState={
+    countries:[]
+}
+
+function list(state=initalState,action){
+
+    switch(action.type){
+        case 'details':
+             return {
+                 countries:action.payload?action.payload:[]
+             }
+       default :
+              return {
+                  ...state
+              }      
+    }
+
+}
+
+export default list;
+
+step3:
+
+import {combineReducers} from 'redux';
+import user from './user';
+import list from './list';
+
+const rootReducers = combineReducers({
+       user:user,
+       list:list
+});
+
+export default rootReducers;
+ 
+step4:
+creating dispacher
+create one folder called service 
+index.js 
+
+
+export const users={
+
+      loadUsers:function(dispatch){
+              dispatch({
+                 type:"success",
+                 payload:{
+                     fullName:"akash",
+                     age:44
+                 }
+            })
+      },
+      failedUsers:function(dispatch){
+        dispatch({
+           type:"failure",
+           payload:{}
+      })
+},
+
+};
+
+step5:Creating store:
+ 
+ import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducers from './reducers/index';
+
+const store = createStore(rootReducers);
+
+root.render(
+    <Provider store={store}>
+        <App />
+    </Provider>
+
+);
+
+step6:Accessing existing state 
+
+import {useSelector} from 'react-redux';
+
+const user = useSelector((state)=>state.user);
+
+   <div>Component C - {user.fullName}</div>
+====================================================
