@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+}
+.header{
+    text-align: center;
+}
+.details{
+
+}
+.offers{
+    color: rgb(5, 100, 56);
+}

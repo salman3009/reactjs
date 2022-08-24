@@ -1,0 +1,15 @@
+Primitive Datatype:
+1.string
+2.number 
+3.boolean
+4.undefined
+Derived Datatype
+1.Array
+2.Object 
+=============================
+Object 
+es6 features
+JSon
+ajax
+sync and asnc
+===============================

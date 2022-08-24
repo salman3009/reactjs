@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <input type="text" id="one"/>
+            <br/>
+            <input type="text" id="two"/>
+            <br/>
+            <button type="submit" onclick="onSubmitHandler(event)">Submit</button>
+            <button onClick="onClearHandler()" type="reset">clear</button>
+        </form>
+   
+        <div id="demo"></div>
+    </body>
+    <script>
+        function onClearHandler(){
+             document.getElementById('demo').innerHTML='';
+        }
+       function onSubmitHandler(event){
+           debugger;
+           event.preventDefault();
+           var a = document.getElementById('one').value;
+           var b = document.getElementById('two').value;
+           var result = Number(a) + Number(b);
+           document.getElementById('demo').innerHTML = "The given addition value is "+result;
+
+       }
+    </script>
+</html>

@@ -1,0 +1,28 @@
+Notes:
+1.usestate
+2.useEffect 
+Step1: 
+Two text will be created
+step2:
+We need to create state because dynamic data.
+step3:
+write onChange event inside the text box to update the state.
+//whenever we update the particular property in state it will overwrite so we need to copyt the existing data.
+//whenever you have array and object please use spread parameter to copy.
+step 4:
+in button attach onclick event and you preventDefault whenever you click inside the form tag.
+=========================================
+validation:
+step 5:
+maintain one separate state for validation purpose.
+step 6:
+//all usestate are async code. We cannot provide any solution which one will run first.
+//To avoid this problem we are using useEffect - it will run after the state update.
+============================================
+step 7:
+//after submit button then only we have to the validation. we used one more that is global state.
+step 8:
+//state will render again only when there is change in data.
+//we maintain one more state inside the button because we need to call this state whenever we submit submit 
+//to display email and password no we are creating one more separate state.
+============================================

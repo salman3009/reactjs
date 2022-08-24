@@ -1,0 +1,7 @@
+Web development: HTML,CSS,Javascript 
+Library:Reactjs
+React is used for development purpose
+Live application - Higher version reactjs should be converted to lower version of javascript.
+==========================================
+Runtime environment:Nodejs 
+Nodejs:you can run javascript outside.

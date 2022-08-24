@@ -1,0 +1,6 @@
+Box modal -- every element will have box modal.
+Box modal consists of width*height,padding,border,margin.
+//For alignment purpose box modal play a very important role.
+//apart from width*height we have four position:
+top,bottom,left,right 
+==========================================

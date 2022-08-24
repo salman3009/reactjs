@@ -1,0 +1,90 @@
+NOtes:
+npx create-react-app project-name 
+scripts:
+npm run start or npm start 
+npm run build
+npm run test 
+=================================
+SPA - Single page application:
+//Entire website is build on singe html file.Depend upon user action will change the component structure.
+best example:gmail.
+====================================
+index.html --->index.js --> App.js 
+===================================
+index.css
+app.css 
+app.js 
+=====================================
+React is developed using component structure 
+component is nothing but one function
+syntax:
+function App(){
+
+}
+
+export default App;
+JSX - extension of javascript
+=========================================
+Every react function should return jsx.
+Return function should wrapped with one tag:
+
+function App(){
+
+      return (<div><div>
+        Welcome to programming
+        </div>
+        <div>
+          welcome to Reactjs
+        </div>
+        </div>
+        )
+
+}
+
+export default App;
+================================================
+App.css
+.box{
+    width: 50%;
+    height: 300px;
+    margin:auto;
+    margin-top:50px;
+    background-color: green;
+}
+================================================
+Simple Design:
+
+import './App.css';
+
+function App(){
+
+      return (<div>
+          <div className="box">
+
+          </div>
+        </div>
+        )
+
+}
+
+export default App;
+============================================
+List
+List.js 
+List.css 
+==============================================
+List.js 
+import './List.css';
+function List() {
+
+    return (<div>
+        <div className="box">
+
+        </div>
+    </div>)
+}
+export default List;
+
+================================
+
+

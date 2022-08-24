@@ -1,0 +1,21 @@
+Table -- To have the combination of row and column 
+tr -- to create row 
+th,td -- to create column 
+th --> for heading
+td --> normal column 
+all element are block element 
+Attributes:
+1.bgcolor 
+2.width
+3.align
+4.border 
+====================================
+Form 
+input tag -->inline element and no closing tag
+validation:
+1.required
+2.maxlength
+3.minlength
+4.email
+5.pattern
+==============================================

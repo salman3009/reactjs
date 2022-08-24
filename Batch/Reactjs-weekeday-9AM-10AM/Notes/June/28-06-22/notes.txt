@@ -1,0 +1,47 @@
+HTML - hyper text markup language
+CSS - cascading style sheet 
+================================
+selector:
+<h1>Hello world</h1>
+
+h1{
+    color : red;
+	font-size:12px;
+}
+px - pixel (0 to 500)
+====================================
+Three ways:
+external ---> real time project 
+html separate file and css separate file
+internal ---> class based project or poc  html and css together same file.
+inline -------> within the tag itself.
+======================================
+internal:
+external
+1.external.html 
+2.global.css 
+==========================
+inline -->internal --->external
+================================ 
+if you want to access id inside the css we need use 
+the # 
+if yo want to access class inside the css we need use the . 
+======================================
+element selector 
+id selector  ---------------->second most used
+class selector  ------------->mostly used selector
+universal selector 
+grouping selector 
+===============================================
+
+
+
+
+
+
+
+
+
+
+
+

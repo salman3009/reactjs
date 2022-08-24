@@ -1,0 +1,31 @@
+Event:
+//how to the event in reactjs 
+onClick  - onClick
+onChange - onChange
+
+In JS
+<div onClick="function()"></div>
+In Reactjs 
+<div onClick={function}><div>
+=======================================
+Table.js 
+
+import './Table.css';
+
+function Table(){
+
+    const onClickHandler = ()=>{
+        alert("onClickHandler")
+    }
+    return (<div>
+       <table>
+           <tr>
+               <td><input type="text"/></td>
+               <td><button onClick={onClickHandler}>Submit</button></td>
+           </tr>
+       </table>
+    </div>)
+}
+
+export default Table;
+========================================

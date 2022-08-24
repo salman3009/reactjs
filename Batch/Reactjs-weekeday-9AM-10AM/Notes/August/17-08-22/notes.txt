@@ -1,0 +1,13 @@
+Notes:
+1.Getting details from user 
+2.Storing in state 
+3.sample validation
+4.validation error display
+5.storing data in session storage 
+6.navigating to login 
+==============================
+1.useState - to maintain local state data 
+2.useEffect - to call the callback function after state changes happened 
+useState - it is an async code 
+==========================================
+

@@ -1,0 +1,38 @@
+<script>
+    function addition(a,b){
+            return new Promise((success,reject)=>{
+              
+                    if(a+b<=0){
+                       reject("failure no payment");
+                   }
+                   else{
+                       success("payment is succesfull");
+                   }
+               
+            })
+    }
+
+    function subtraction(a,b){
+    console.log("subtraction function is ",a-b);
+   }
+
+   function display(){
+       console.log("successfully completed");
+   }
+   addition(33,33).then((positive)=>{
+       console.log(positive);
+   },(reject)=>{
+       console.log(reject);
+   }).catch((error)=>{
+       console.log(error);
+   })
+   addition(33,-33).then((positive)=>{
+       console.log(positive);
+   },(reject)=>{
+       console.log(reject);
+   }).catch((error)=>{
+       console.log(error);
+   })
+   subtraction(11,22);
+   display();
+</script>

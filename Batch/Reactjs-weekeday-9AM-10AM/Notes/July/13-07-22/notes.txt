@@ -1,0 +1,4 @@
+Notes:
+Resume:HTML,CSS,Bootstrap 4
+Resume:Javascript,ES6,Reactjs(functional component and class component).
+

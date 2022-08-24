@@ -1,0 +1,22 @@
+Notes:
+Object={
+ fullName:"akash",
+ age:22
+};
+class - to create the blueprint 
+=====================================
+array - order important;
+object - order is not important;
+constructor: it is used to initialize the data.
+===========================================
+1.sessionstorage/localstorage
+2.json 
+3.ajax 
+=======================================
+settimeout,setInterval,sync,async,promise
+=======================================
+
+
+
+
+

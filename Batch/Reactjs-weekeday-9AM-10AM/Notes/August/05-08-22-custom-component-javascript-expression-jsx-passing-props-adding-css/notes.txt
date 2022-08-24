@@ -1,0 +1,11 @@
+node-modules
+package.json 
+src
+index.js -->app.js 
+==========================
+1.nodejs we need to install  - to run javascript outside the browser.
+2.npx create-react-app project-name
+
+index.html --> index.js --> app.js ---> list.js 
+
+custom attributes - props 

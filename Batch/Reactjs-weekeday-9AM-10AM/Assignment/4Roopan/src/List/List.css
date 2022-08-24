@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 150px;
+    margin:20px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+.header{
+    text-align: center;
+    padding-top:10px;
+    font-size:25px;
+    font-weight: 900;
+    color:rgb(24, 4, 4);
+}

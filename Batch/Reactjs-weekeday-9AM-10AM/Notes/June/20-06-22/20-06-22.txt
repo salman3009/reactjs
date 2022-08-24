@@ -1,0 +1,66 @@
+Web - anything that is running on internet 
+www- world wide web 
+frontend technology
+backend technology 
+frontend ------------ backend
+client   ------------- server 
+end user ------------- web server 
+url:www.google.com ---------> request 
+website that is going to return some information - response 
+url:http://www.google.com 
+http - hyper text transfer protocol 
+http - to bring hyper link page 
+www -- it is available for everyone 
+google.com -- domain name  
+web information can access only through browser 
+browser -- it is software 
+client - frontend - presentation layer - end user 
+backend - business layer - server - web server 
+backend -- business layer + Database 
+Database - storing data permanently
+============================================
+Frontend technology:
+plain language -- you going to work with same language 
+html - type text mark up language (layout of web page)
+css - cascading style sheet (presentation)
+javascript ( to make page interactive)
+web development or web developer - html,css,javascript.
+library or framework -- Reactjs,angular,vuejs
+Technology:
+html 
+css 
+javascript 
+bootstrap
+reactjs 
+===========================================
+HTML - Hyper text markup language. 
+html will decide the layout of web page.
+<>  --------->opening tags 
+</> -------->closing tags
+<element>image</element>
+==================================
+to type html code we need either notepad,notepad++,
+visual studio code - IDE
+IDE - Integrated Development Environment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

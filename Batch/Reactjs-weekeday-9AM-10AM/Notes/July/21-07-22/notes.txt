@@ -1,0 +1,16 @@
+Notes:
+logical operator:
+&& ---> if everything is true means it will return true otherwise.
+||--->if altest one true means it will return true else false.
+! ---> will return you the opposite condition
+===============================================
+Ternary operator or conditional operator:
+condition ? "yes":"no"
+
+
+
+
+
+
+
+

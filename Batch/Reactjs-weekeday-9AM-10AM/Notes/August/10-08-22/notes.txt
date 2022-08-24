@@ -1,0 +1,31 @@
+state in React:
+//whenver you have dynamic data to be render then we need to use state.
+import {useState} from 'react';
+
+const[getfullName,setFullName]=useState("no value");
+
+setFullName(event.target.value);
+
+getfullName -> will provide latest value 
+setFullName -->helps to update the value
+===========================================
+    const[getFlag,setFlag] = useState(false);
+	    const onClickHandler = (event)=>{
+        console.log(event.target.id);
+        alert("onClickHandler");
+        setFullName('');
+        setFlag(true);
+        return 1;
+    }
+	   {getFlag && <div>Succesfully submitted</div>}
+====================================================
+1.overall structure of reactjs project 
+2.how to use props 
+3.how to use state 
+4.how to write functional component 
+5.how to write events 
+6.how to javascript expression inside the jsx 
+7.handling && and condition operator
+8.how to handle image.
+=================================
+

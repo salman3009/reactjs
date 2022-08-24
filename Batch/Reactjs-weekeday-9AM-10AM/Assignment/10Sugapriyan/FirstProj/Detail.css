@@ -1,0 +1,13 @@
+.box{
+    background-color: rgb(188, 17, 154);
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.heading{
+    text-align: center;
+    color: aliceblue;
+}

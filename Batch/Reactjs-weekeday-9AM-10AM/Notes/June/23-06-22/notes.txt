@@ -1,0 +1,23 @@
+img tag to display the image.
+example:
+<img src="" alt="">
+alt --> if you dont see the image alt attribute label wil be shown
+width - to increase the width size in pixel
+height - to increase the height 
+=====================================
+ol - ordered list 
+ul - unordered list
+li - list 
+type attribute ---> ol 
+ol type= "1" "a" "A" "i" "I" 
+ul type = "disc" "square" "circle" 
+=====================================
+HTML is divided into type types:
+1.block element 
+2.inline element 
+block element:
+h1 to h6, p,ol,ul,li 
+inline element 
+a ,img
+pure block element:
+div 

@@ -1,0 +1,26 @@
+Nodejs - running javascript outside the browser 
+npm - node package manager (it is use to install the packages)
+========================================
+https://reactjs.org/docs/create-a-new-react-app.html
+cmd:
+npx create-react-app my-app
+==============================================
+Project run: npm start  or npm run start 
+============================================
+package.json --> all javascript project you will have package.json 
+//package we have used in our project 
+//how to start the project 
+//how to build project 
+node-modules - folder where all package will be present.
+============================================
+SPA - Single page application 
+src - source folder 
+===================================
+.js 
+.css 
+.test.js --->testing file 
+===================================
+react inside the js file itself will return the html.
+==============================================
+To stop the react application - Ctrl+c 
+==============================================

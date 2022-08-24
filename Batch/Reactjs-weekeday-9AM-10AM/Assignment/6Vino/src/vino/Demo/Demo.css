@@ -1,0 +1,13 @@
+.form{
+    background-color:lightblue;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.heading{
+    text-align: center;
+    
+}

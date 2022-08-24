@@ -1,0 +1,11 @@
+{
+  "fullName":"salman",
+  "age":44,
+  "list":[33,44,55,666],
+  "flag":true,
+  "address":{
+      "doorNo":22,
+      "location":"chennai"
+  },
+  "salary":null
+}

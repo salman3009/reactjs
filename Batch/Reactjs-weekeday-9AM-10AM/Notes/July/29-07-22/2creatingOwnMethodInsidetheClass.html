@@ -1,0 +1,25 @@
+<script>
+    class Laptop{
+        
+        constructor(name,price,offer,image){
+            this.name = name;
+            this.price = price;
+            this.offer = offer;
+            this.image = image;
+
+        }
+
+        setOffer(input){
+            this.offer = input;
+        }
+        getOffer(){
+            return this.offer;
+        }
+    }
+
+    let samsung = new Laptop("samsung",40000,1000,"https://flipkar.com/sam.png");
+    console.log(samsung); 
+    console.log(samsung.getOffer());
+     samsung.setOffer(4000);
+     console.log(samsung.getOffer());
+</script>

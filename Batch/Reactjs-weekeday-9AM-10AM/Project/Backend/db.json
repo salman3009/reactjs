@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "firstName": "harry11111",
+      "lastName": "g",
+      "email": "harry@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "firstName": "harry11111",
+      "lastName": "g",
+      "email": "suresh@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "firstName": "salman2222",
+      "lastName": "salman2222",
+      "email": "salman@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "firstName": "salman2222",
+      "lastName": "salman2222",
+      "email": "salman@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "firstName": "asdfasdfasdf",
+      "lastName": "asdfadf",
+      "email": "adsfaf@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "firstName": "raj",
+      "lastName": "andrew",
+      "email": "raj@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "firstName": "salman",
+      "lastName": "andrew",
+      "email": "raj@gmail.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "firstName": "salman",
+      "lastName": "gdsfsdf",
+      "email": "salman@gmail.com",
+      "password": "12345",
+      "id": 9
+    }
+  ],
+  "expense": [
+    {
+      "title": "cab",
+      "date": "2022-05-12",
+      "paidBy": "salman",
+      "amount": "2000",
+      "id": 5
+    },
+    {
+      "title": "rajesh",
+      "date": "2022-05-22",
+      "category": "1",
+      "amount": "2000",
+      "id": 6
+    },
+    {
+      "title": "akash",
+      "date": "2022-05-03",
+      "category": "2",
+      "amount": "2000",
+      "id": 7
+    }
+  ],
+  "global": [
+    {
+      "id": 1,
+      "expenseName": "vanloanss",
+      "amount": 5000,
+      "date": "22/05/2022",
+      "paidBy": "salman"
+    },
+    {
+      "expenseName": "houseloan",
+      "amount": "70000",
+      "paidBy": "rajesh",
+      "date": "22/05/2022",
+      "id": 2
+    },
+    {
+      "expenseName": "vanloanss",
+      "amount": 5000,
+      "date": "22/05/2022",
+      "paidBy": "rajesh",
+      "id": 3
+    }
+  ],
+  "expense": [
+    {
+      "title": "cab",
+      "date": "2022-05-12",
+      "paidBy": "salman",
+      "amount": "2000",
+      "id": 5
+    },
+    {
+      "title": "rajesh",
+      "date": "2022-05-22",
+      "category": "1",
+      "amount": "2000",
+      "id": 6
+    },
+    {
+      "title": "akash",
+      "date": "2022-05-03",
+      "category": "2",
+      "amount": "2000",
+      "id": 7
+    }
+  ],
+  "listBook": [
+    {
+      "id": 1,
+      "bookName": "vanloanss"
+    },
+    {
+      "bookName": "houseloan",
+      "id": 2
+    },
+    {
+      "bookName": "vanloanss",
+      "id": 3
+    }
+  ]
+}

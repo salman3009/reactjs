@@ -1,0 +1,12 @@
+DOM --> Document Object Modal
+//Main role played by DOM to interacte with html using javacript.
+//window--->document--->getElementById()--->innerhtml
+//window--->document-->getElementById()-->style-->color
+//window--->document-->getElementById()-->setAttribute()
+window --->object
+document --->object 
+getElementById() --->method
+setAttribute()--->method 
+style --->object
+color --->property
+==============================================

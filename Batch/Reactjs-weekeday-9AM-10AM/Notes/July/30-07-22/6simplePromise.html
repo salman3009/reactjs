@@ -1,0 +1,25 @@
+<!-- <script>
+    function display(){
+        return new Promise((resolve,reject)=>{
+          resolve(34);
+        })
+    }
+    display().then((success)=>{
+        console.log(success);
+    })
+</script> -->
+
+
+<script>
+    function display(){
+        return new Promise((resolve,reject)=>{
+            addalert("hello");
+          resolve(34);
+        })
+    }
+    display().then((success)=>{
+        console.log(success);
+    }).catch(()=>{
+        console.log("some exception")
+    })
+</script>

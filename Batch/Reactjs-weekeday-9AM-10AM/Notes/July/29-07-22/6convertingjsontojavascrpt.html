@@ -1,0 +1,16 @@
+<script>
+    let obj={
+        fullName:"salman",
+        age:33
+    };
+    console.log(typeof obj);
+    console.log(obj.age);
+    let list = JSON.stringify(obj);
+    //convert the js object into json(string)
+    console.log(typeof list);
+    console.log(list.age);
+    list = JSON.parse(list);
+    //conver the json to object
+    console.log(typeof list);
+    console.log(list.age);
+</script>

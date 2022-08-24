@@ -1,0 +1,48 @@
+<> ---> tag 
+<element> --->opening tag 
+</element> --->closing tag 
+<!DOCTYPE html> --> we are going to tell the browser
+that we are using html5 version 
+<html>
+<head></head>
+<body></body>
+</html>
+========================================
+To create New file: Ctrl+N 
+To save file:Ctrl+s
+filename:hello.html
+h1 to h6 --> heading tag 
+p ---------> paragraph tag 
+Global attribute 
+1.align = "left" "right" "center"
+anchor tag ---> to move from one page to another 
+page we can use anchor tag 
+Example:
+<a href="some location">please click here</a>
+attribute --- extra information about that particular tag.
+target="_blank" -- To open the link in new tab
+================================================
+HTML is divided into two types:
+1.block element
+example:
+(i)p tag 
+(ii)h1 to h6 tag 
+2.inline element 
+(i).anchor tag
+=====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+Navigation - top bar 
+flex 
+grid
+
+CSS:
+width*height
+padding
+border
+margin
+font-size
+font-weight
+display:inline
+float 
+box-shadow
+text-align
+border-radius
+flex 
+color
+background-color 
+grid 
+============================================

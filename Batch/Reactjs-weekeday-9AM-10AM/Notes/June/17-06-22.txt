@@ -1,0 +1,63 @@
+
+Theory concept:
+Practical concept:
+assignment for 
+mcq written exam
+mock interview 
+
+
+HTML
+CSS
+Bootstrap 4
+basic javascript
+regix pattern
+es6
+json/http/ajax/storage/postmanapi 
+
+
+phase 2:
+
+Reactjs 
+functional component  -----------> trending market 
+class component 
+
+Two projects:
+1.class project
+2.assignment project 
+
+Resume:
+html,css,js,reactjs,bootstrap4,git,github,unit testing 
+==================================
+internet : one computer is connected with another computer.
+URL: uniform resource locator  -- address of particular computer.
+http://www.google.com/worlbanking.html 
+http - hyper text transfer protocol 
+hyper - one information will have another information 
+text - data 
+transfer - one place to another place.
+http:// ----------> protocol -- set of rule 
+www ---------> anyone can access 
+www - world wide web 
+google.com -- address ----------> 192.223.44
+DNS --> domain name server 
+worldbanking.html ---> one information 
+
+==================================================
+page --> set of information ---> web page ---> more than one page-->website --> web server 
+server ---> google.com------->192.56.222
+IP - internet protocol 
+example web server:
+flipkart
+neflix
+youtube
+amazon 
+=================================================
+
+
+
+
+
+
+
+
+

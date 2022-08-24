@@ -1,0 +1,11 @@
+.box1 {
+  width: 20%;
+  height: 200px;
+  background-color: slateblue;
+  margin-left: 20px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+}

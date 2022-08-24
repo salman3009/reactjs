@@ -1,0 +1,7 @@
+NOtes:
+//Showing dynamic data in the table:
+1.create the state and store the initial value.
+2.to iterate the data we can run loop.
+3.use {} whenever you find javascript to be written and use () whenever you find that html to be written
+4.please use index inside the map function to provide key property.
+==============================================

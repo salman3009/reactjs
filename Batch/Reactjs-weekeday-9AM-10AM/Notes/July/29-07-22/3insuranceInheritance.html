@@ -1,0 +1,37 @@
+<script>
+    class Laptop{
+        
+        constructor(name,price,offer,image){
+            this.name = name;
+            this.price = price;
+            this.offer = offer;
+            this.image = image;
+
+        }
+
+        setOffer(input){
+            this.offer = input;
+        }
+        getOffer(){
+            return this.offer;
+        }
+    }
+
+    let samsung = new Laptop("samsung",40000,1000,"https://flipkar.com/sam.png");
+    console.log(samsung); 
+ 
+    class Insurance extends Laptop{
+        constructor(id,year,name,price,offer,image){
+            super(name,price,offer,image);
+            this.id = id;
+            this.year = year;
+        }
+        getYear(){
+            return this.year;
+        }
+    }
+    let sbi = new Insurance(23,3,"sony",3999,200,"https://flipkart.com");
+    console.log(sbi);
+    console.log(sbi.getOffer());
+    console.log(sbi.getYear());
+</script>

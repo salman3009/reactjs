@@ -1,0 +1,42 @@
+<!-- <script>
+    var employee={
+        salary:0,
+        fullName:"salman",
+        age:44,
+        course:'software',
+        setSalary(input){
+            this.salary = input;
+            //this current object
+        }
+    }
+    console.log(employee.salary);
+    employee.setSalary(4000);
+    console.log(employee.salary);
+
+
+</script> -->
+
+
+<script>
+    var employee={
+        list:[1,2,3,4,55,55],
+        salary:0,
+        fullName:"salman",
+        age:44,
+        course:'software',
+        setSalary: function(input){
+            this.salary = input;
+            //this current object
+        },
+        getSalary: function(){
+            return this.age;
+        },
+        status:"given"
+
+    }
+    console.log(employee.salary);
+    employee.setSalary(4000);
+    console.log(employee.salary);
+
+
+</script>

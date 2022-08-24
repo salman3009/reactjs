@@ -1,0 +1,21 @@
+<script>
+    var address={
+        street: "2nd",
+        doorNo: 12,
+        location:"chennai",
+        pincode:453343,
+        salary:true
+    }
+    console.log(address);
+    console.log(address.location);
+    //new data add
+    address.state = "tamil nadu";
+    console.log(address);
+    //update
+    address.salary = false;
+    console.log(address.salary);
+    //delete 
+    delete address.state;
+    console.log(address);
+
+</script>

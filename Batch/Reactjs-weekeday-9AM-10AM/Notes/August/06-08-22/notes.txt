@@ -1,0 +1,98 @@
+To setup Reactjs application in your system
+1.Nodejs --> will run javascript outside the browser.
+Before giving Reactjs to browser we need to bundle so that it will convert high level code to low level version.
+Example:
+jsx return
+import and export statement 
+
+2.To get sample project setup we need to use one package developed by react team 
+cmd:npx create-react-app project-name 
+npx - helps to install the latest version of the package.
+create-react-app - package name 
+project-name --project name 
+
+===========================================
+SPA - Single Page application 
+//This application will consists of only one html file.
+//Depends upon the routing component will get rerender.
+===============================================
+component - It consists logic of html and css to display the UI.
+//we are using functional component to render the UI. 
+//To return html we are using the concept of JSX 
+JSX - extension of javascript 
+============================================
+Files extension:
+1.filname.js 
+2.filename.css 
+3.filname.test.js 
+==============================================
+structure:
+1.package.json   --> configuration file 
+//set of package used in your application 
+//scripts tag will be there . It will help you to run the application or to build the application.
+2.package-lock.json --> it is lock version of package.json 
+3.node-modules --> Whatever inbuilt packages we have used that code will be present here.
+4.public 
+      1. index.html 
+5.src 
+     1.index.js 
+	 2.app.js 
+//real time project this is the main source code to work.
+
+===================================================
+To start any javascript application:
+scripts 
+npm run start or npm start 
+npm run build 
+npm run test 
+======================================
+import and export statement 
+//it is used to import another file in the open file.	 
+React helps to create custom component or custom html 
+========================================
+To create the component in React 
+1.create function and it should return JSX
+function Details(){
+   
+   return (<div>
+   
+   </div>)
+}
+export default Details;
+
+App.js 
+import Details from './Details';
+<Details/>
+<Details/>
+========================================
+<div>
+<input/>
+<img/>
+<br/>
+<a></a>
+<h1></h1>
+</div>
+//closing tag is mandatory
+==========================================
+CSS:
+to apply css instead of class use the className 
+=======================================
+props --object -- passing data from parent component to child component.
+============================================
+any javascript expression you want to use inside the jsx we need to use {}
+===================================================
+1.Types of operator 
+2.Control Flow 
+3.Loops 
+4.string method 
+5.array method 
+6.object 
+7.es6 features 
+8.sync and async 
+9.json 
+10.ajax and promise 
+11.fetch method 
+12.sessionStorage 
+===========================================
+
+
