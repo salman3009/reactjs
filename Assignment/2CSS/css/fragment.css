@@ -1,0 +1,76 @@
+body{
+width:500px;
+margin:20px auto;
+font-family:san-serif;
+color:#575757;
+}
+article h2{
+font-size:30px;
+line-height:40px;
+}
+article img{
+width:130px;
+height:140px;
+float:left;
+}
+.preview{
+
+float:right;
+width:300px;
+}
+a{
+font-size:14px;
+color:#276056;
+}
+.continue:after{
+content:')';
+}
+.continue:before{
+content:'(';
+}
+.meta a,.model a{
+font-style:italic;
+font-size:14px;
+}
+.meta li {
+display:inline;
+}
+.meta li:after{
+content:'\\';
+padding:0 2px;
+color:#999;
+}
+.meta li:last-child:after{
+content:none;
+}
+.meta{
+padding-left:0;
+margin-top:0;
+}
+article h2{
+margin:0px;
+letter-spacing:-1px;
+}
+.model{
+font-size:14px;
+color:#999;
+background:#f3f3f3;
+padding:2px;
+float:left;
+}
+.model a{
+color:#999;
+text-decoration:none;
+}
+.model a:hover{
+color:black;
+}
+p{
+line-height:21px;
+}
+.continue{
+float:right;
+}
+a:hover{
+color:black;
+}

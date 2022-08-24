@@ -1,0 +1,17 @@
+blockquote{
+margin-left:0;
+text-align:center;
+border:1px solid white;
+width:400px;
+
+}
+.d2{
+font-family:san-serif;
+
+}
+body{
+font-size:20;
+margin:auto;
+width:400px;
+background:grey;
+}

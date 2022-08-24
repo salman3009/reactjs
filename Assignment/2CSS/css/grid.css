@@ -1,0 +1,21 @@
+.container_12{
+background:red;
+}
+
+nav li{
+display:inline;
+margin-left:0px;
+margin-right:30px;
+}
+aside{
+background:black;
+}
+.primary{
+background:grey;
+}
+header{
+background:yellow;
+}
+.main{
+margin:30px 0;
+}

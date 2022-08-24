@@ -1,0 +1,24 @@
+.wrap{
+underflow:hidden;
+min-width:500px;
+width:60%;
+margin:auto;
+background:yellow;
+
+}
+.content{
+margin-top:19px;
+background:blue;
+float:left;
+width:70%;
+height:119px;
+}
+aside{
+width:30%;
+float:right;
+background:orange;
+}
+aside ul{
+padding-left:20px;
+list-style:none;
+}

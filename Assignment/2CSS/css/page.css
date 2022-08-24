@@ -1,0 +1,15 @@
+li{
+display:inline;
+}
+li a{
+text-decoration:none;
+padding-right:10px;
+color:blue;
+}
+body{
+font-family:sans-serif;
+}
+li a:hover{
+text-decoration:underline;
+color:red;
+}

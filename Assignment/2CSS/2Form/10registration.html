@@ -1,0 +1,220 @@
+<html>
+  <head>
+  <link rel="shortcut icon"  href="F:\Project\images\small1.jpg">
+  <style type="text/css">
+  body
+  {
+  background-color:#BA55D3;
+  }
+  table,th,td
+  {
+   margin:0px auto;
+   width:0%;
+   background-color:#1E90FF;
+   }
+   td
+   {
+   padding:8px;
+   }
+   .e
+   {
+   font-family:Times new Roman;
+   font-size:14px;
+   text-transform:uppercase;
+   font-weight:bold;
+   }
+   
+   #passwordStrength
+{
+        height:5px;
+        display:block;
+        float:left;
+}
+.strength0
+{
+        width:250px;
+        background:#cccccc;
+}
+.strength1
+{
+        width:40px;
+        background:#ff0000;
+}
+.strength2
+{
+        width:75px;
+        background:#ff5f5f;
+}
+.strength3
+{
+        width:150px;
+        background:#56e500;
+}
+.strength4
+{
+        background:#399800;
+        width:200px;
+}
+ 
+</style>
+  <script type="text/javascript">
+  function validate()
+{ 
+   if( document.RegistrationLogin.firstname.value == "" )
+   {
+     alert( "Please provide your First Name!" );
+     return false;
+   }
+   if( document.RegistrationLogin.lastname.value == "" )
+   {
+     alert( "Please provide your Last Name!" );
+     document.RegistrationLogin.lastname.focus() ;
+     return false;
+   }
+    if( document.RegistrationLogin.username.value == "" )
+   {
+     alert( "Please provide your User Name!" );
+     document.RegistrationLogin.username.focus() ;
+     return false;
+   }
+ if( document.RegistrationLogin.password.value == "" ||
+           document.RegistrationLogin.password.value.length <= 6)
+   {
+     alert( "Please provide a password atleast 7 characters." );
+     document.RegistrationLogin.password.focus() ;
+     return false;
+	 }
+	 if( document.RegistrationLogin.password.value !=
+           document.RegistrationLogin.password1.value)
+   {
+     alert( "Two paswords are not match" );
+     document.RegistrationLogin.password1.focus() ;
+     return false;
+	 }
+   if ( ( RegistrationLogin.sex[0].checked == false ) && ( RegistrationLogin.sex[1].checked == false ) )
+   {
+   alert ( "Please choose your Gender: Male or Female" );
+   return false;
+   }   
+  if( document.RegistrationLogin.dob.value == "" )
+   {
+     alert( "Please provide your DOB!" );
+     document.RegistrationLogin.dob.focus() ;
+     return false;
+   }
+  if( document.RegistrationLogin.mobileno.value == "" ||
+           isNaN( document.RegistrationLogin.mobileno.value) ||
+           document.RegistrationLogin.mobileno.value.length != 10 )
+   {
+     alert( "Please provide a Mobile No in the format 123." );
+     document.RegistrationLogin.mobileno.focus() ;
+     return false;
+   }
+    if( document.RegistrationLogin.cityname.value == "" )
+   {
+     alert( "Please provide your City!" );
+     document.RegistrationLogin.cityname.focus() ;
+     return false;
+   }   
+   if( document.RegistrationLogin.statename.value == "" )
+   {
+     alert( "Please provide your statename!" );
+     document.RegistrationLogin.statename.focus() ;
+     return false;
+   }
+   }
+function passwordStrength(password)
+{
+        var desc = new Array();
+        desc[0] = "Very Weak";
+        desc[1] = "Weak";
+        desc[2] = "Better";
+        desc[3] = "Good";
+        desc[4] = "Strong";
+        var score   = 0;
+ 
+        //if password bigger than 10 give 1 point
+ 
+        if (password.length > 10) score++;
+ 
+        //if password has both lower and uppercase characters give 1 point
+ 
+        if ( ( password.match(/[a-z]/) ) || ( password.match(/[A-Z]/) ) ) score++;
+ 
+        //if password has at least one number give 1 point
+ 
+        if (password.match(/d+/)) score++;
+ 
+        //if password has at least one special caracther give 1 point
+ 
+        if ( password.match(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/) ) score++;
+ 
+         document.getElementById("passwordDescription").innerHTML = desc[score];
+         document.getElementById("passwordStrength").className = "strength" + score;
+}
+  </script>
+  </head>
+  <body>
+  <form action="registerDBstore.php" name="RegistrationLogin" onsubmit="return(validate());" method="post">
+<p class="five">
+  <table>
+  <tr>
+  <td colspan=2>
+  <center><font size=6><b>RegistrationLogin</b></font></center>
+</td>
+</tr>
+<tr>
+  <td class="e">First Name</td>
+  <td><input type="text" name="firstname"  placeholder="Enter Your First Name" size="30"></td>
+  </tr>
+<tr>
+  <td class="e">Last Name</td>
+  <td><input type="text" name="lastname"  placeholder="Enter Your Second Name"size="30"></td>
+  </tr>
+<tr>
+<td class="e">User Name</td>
+  <td><input type="text" name="username"  size="30">@indian.com</td>
+  </tr>
+<tr>
+  <td class="e">Password</td>
+  <td>
+<input type="password" name="password"  placeholder="Atleast 6 characters" onkeyup="passwordStrength(this.value)"/>
+<tr><td colspan=2><div id="passwordDescription">Password not entered</div>
+<div id="passwordStrength" class="strength0"></div></td></tr>                    
+</td>
+</tr>
+<tr>
+  <td class="e">Confirm Password</td>
+  <td><input type="password" name="password1" size="30"></td>
+</tr>
+<tr>
+  <td class="e">Sex</td>
+  <td><input type="radio" name="sex" value="male" size="10">Male
+  <input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+<tr>
+<td class="e">Date of Birth</td>
+<td><input type="date"  name="dob"  value="mm-dd-yyyy"></td>
+</tr>
+<tr>
+  <td class="e">MobileNo</td>
+  <td><input type="number" name="mobileno"  size="10"></td>
+  </tr>
+<tr>
+<td class="e">City</td>
+<td><input type="text" name="cityname"></td>
+</tr>
+<tr>
+<td class="e">State</td>
+<td><input type="text" name="statename"></td>
+</tr>
+<tr>
+  <td><input type="reset" value="Reset"></td>
+  <td><input type="submit" value="Submit Form"></td>
+</tr>
+</table>
+</p>
+</form> 
+</body>
+</html>
+

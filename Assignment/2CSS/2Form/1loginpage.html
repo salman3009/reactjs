@@ -1,0 +1,99 @@
+<html>
+<head>
+<link rel="shortcut icon"  href="F:\Project\images\small1.jpg">
+<style type="text/css">
+ table,th,td
+  {
+   margin:0px auto;
+   padding:2px;
+   width:30%;
+   background-color:#FF6347;
+   }
+   td
+   {
+   padding:8px;
+   }
+   body{
+    background-color:#20B2AA;
+   }
+   a.two:link
+{
+color:black;
+}
+.lbutton
+{	
+	padding:5px 5px;
+	font-size:15px;
+	border:1px solid #0076a3;
+	border-top-right-radius: 4px 4px;
+	border-bottom-right-radius: 4px 4px;
+	border-top-left-radius: 4px 4px;
+	border-bottom-left-radius: 4px 4px;
+	border-right:0;
+	cursor:pointer;
+	text-align:center;
+	background:#0095cd;
+	color:#ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,#00adee,#0078a5);
+	outline:none;
+	}
+	.lbutton:active
+	{
+	background:99FFFF;
+	}
+	 .e
+   {
+   font-family:Times new Roman;
+   font-size:15px;
+   text-transform:uppercase;
+   }
+
+</style>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["username"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+	var y=document.forms["myForm"]["password"].value;
+	if( y== "" ||y<= 8)
+   {
+     alert( "Please provide a password alleast 8 characters." );
+     return false;
+	 }
+}
+</script>
+</head>
+<body>
+<table>
+<form name="myForm" action="loginpagecheck.php" onsubmit="return validateForm();" method="post">
+  <tr>
+  <td colspan=2>
+  <center><font size="5" face="arial"><b>Login Form</b></font></center>
+</td>
+</tr>
+<tr>
+<td colspan=2><center>
+<img name="slide" id="slide" alt ="my images" height="100" width="150" src="11.png"/></center>
+</td>
+</tr>
+<tr>
+<td class="e">Email</td>
+  <td><input type="text" name="username" style="height:30px;" placeholder="someone@example.com"></td>
+  </tr>
+<tr>
+  <td class="e">Password</td>
+  <td><input type="password" name="password" style="height:30px;"></td>
+</tr>
+<tr>
+  <td><input type="Reset" value="Reset"  class="lbutton"></td>
+  <td><input type="submit" value="Login"  class="lbutton"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>

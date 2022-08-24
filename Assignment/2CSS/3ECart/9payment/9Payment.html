@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Payment Process</title>
+<style>
+b{margin-left:40px;}
+
+.button{ margin-left:60px;width:150px;height:40px;border:none;color:white;background:blue;font-size:19;
+border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+</style>
+
+<script>
+function sukku()
+{
+if(document.getElementById("sukku").value=="")
+{
+alert("you should provide Email ID");
+}
+else{
+continuee();
+}
+}
+function move()
+{
+if(document.getElementById("naga").value==""||document.getElementById("demo1").value==""||document.getElementById("demo2").value==""||document.getElementById("demo3").value==""||document.getElementById("demo4").value==""||document.getElementById("demo5").value=="")
+{
+alert("you should provide all the Details");
+}
+else
+{
+alert("You Placed Order Successfully.");
+}
+}
+
+function continuee()
+	{
+
+	document.getElementById("demo").innerHTML="<form action=orderdetails.php method=POST><pre><b>Enter the Shipping Address</b><br><br>PinCode:*          <input type=text id=naga name=pincode><br><br>Full Name:*        <input type=text id=demo1 name=name> <br><br>Shipping Address: *<input type=textarea width=30 id=demo2 name=address><br><br>Nearest Landmark:  <input type=text id=demo3 name=landmark><br><br>City: *            <input type=text id=demo4 name=city><br><br>Mobile: *          <input type=text name=mobile id=demo5><br><br>                <input type=submit name=submit></form><pre>"; 
+	}
+</script>
+</head>
+<body >
+<div style="height:60px;border-bottom:1px solid grey;">
+<img src="logo.gif" style="margin-left:200px;">
+<img src="trust.png" height="50px"  style="margin-left:100px;" width="40x">
+<b style="font-size:22;">100% Secure </b> Shopping guarantee
+<img src="PA.jpg" style="margin-left:100px;" ><b>7Days Return Policy</b>
+</div>
+<div style="margin-top:50px;margin-left:250px;width:700px;height:450px;border:1px solid grey;border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;">
+<div style="margin-top:20px;">
+<b>1.Login</b><b >2.Shipping Details</b>
+<b>3.Make Payment</b></div>
+<div style="margin-left:20px;"><img src="Login.jpg" height="35" width="35" style="margin-left:28px;">
+<img src="Shipping.jpg" height="40" width="40" style="margin-left:77px;">
+<img src="pay.jpg" height="40" width="40" style="margin-left:97px;">
+</div>
+<div style="margin-top:30px;margin-left:20;position:relative;" id="demo">
+<form name="myforms">
+Email ID:<input type="email" id="sukku" name="mail" value="" style="height:40;width:250px;">
+<br>
+<br>
+<input type="radio" name="login" value="checked"  style="margin-left:60px;"checked><strong>Continue Without Password</strong>
+<div style="margin-left:84px;font-size:13;">(Don't have an account yet)</div>
+<br>
+<input type="radio" name="login" value="" style="margin-left:60px;"><strong>I have a Gmarket account & password</strong>
+<div style="margin-left:84px;font-size:13;">(Sign in your account to get benefits)</div>
+<br>
+<br>
+</form>
+<input type="button" value="Continue" onclick="sukku();"  class="button" ;">
+</div>
+</div>
+</body>
+</html>
