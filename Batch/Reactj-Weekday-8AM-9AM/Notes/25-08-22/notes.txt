@@ -1,0 +1,19 @@
+Table:
+tr - row
+th,td - column (th-for heading) (td-to divide columns)
+Attributes:
+1.width
+2.height
+3.border
+3.align
+================================================
+If you want to access the information from end user you have only one tag that is input elements.
+==============================================
+closing we don't have:
+1.br
+2.input 
+3.hr
+4.img 
+5.meta 
+=========================================
+
