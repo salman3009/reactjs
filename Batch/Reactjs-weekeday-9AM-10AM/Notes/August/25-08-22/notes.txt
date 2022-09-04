@@ -1,0 +1,28 @@
+step1:
+cmd:npm install axios
+ 
+step2:
+Dashboard.js 
+import axios from 'axios';
+
+step3:
+  useEffect(()=>{
+
+  },[])
+  
+step 4:
+     axios.get('http://localhost:3000/expense').then((result)=>{
+                  console.log(result.data);
+                  setDetails(result.data)
+          }).catch((error)=>{
+                 console.log(error);
+          })
+==================================================	get - only parameter - url
+post - two parameter - url,object	  
+delete - only parameter 
+================================
+axios:
+1.interceptor
+2.short and simple coding styling
+3.no need to worry about converting to json or javascript object it will take care.
+============================================

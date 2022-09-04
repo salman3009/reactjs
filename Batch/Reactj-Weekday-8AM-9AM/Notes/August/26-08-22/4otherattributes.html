@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form method="post">
+            FirstName:<input type="text"  placeholder="fullName" name="firstName" id="registerFirstName">
+            <br><br>
+        
+            Email:<input type="email" readonly value="akash@gmail.com" name="email" id="registerEmail">
+            <br><br>
+          
+            Gender:
+            <input type="radio" name="gender" id="registerMale" value="male">Male
+            <input type="radio" checked name="gender" id="registerFemale" value="female">Female
+            <br><br>
+            Select preferred city:
+            <input autofocus type="checkbox" checked name="chennai" id="registerChennai" value="chennai">chennai
+            <input type="checkbox" name="bangalore" id="registerBangalore" value="bangalore">Bangalore
+            <input type="checkbox" name="mumbai" id="registerMumbai" value="mumbai">Mumbai
+            <input type="checkbox" name="kochi" id="registerKochi" value="kochi">Kochi
+            <br><br>
+            Country:
+            <select>
+                <option value="india">India</option>
+                <option value="china">China</option>
+                <option value="usa">USA</option>
+                <option value="russia">Russia</option>
+                <option value="dubai">Dubai</option>
+                <option value="germany">Germany</option>
+                <option value="uk" selected>UK</option>
+            </select>
+            <br><br>
+            Age:<input disabled  id="registerAge" name="age" type="number">
+             <br><br>
+             Description:
+             <textarea id="registerDescription" name="description"></textarea>
+              <br><br>
+              <input type="file">
+              <br>
+              <br>
+            <input type="submit" value="register">
+            <input type="reset" disabled value="clear">
+        </form>
+    </body>
+</html>

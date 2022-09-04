@@ -1,0 +1,54 @@
+<html>
+    <head>
+
+        <style>
+            .header{grid-area: header;}
+            .footer{grid-area: footer;}
+            .side-menu{grid-area: side-menu;}
+            .main-content{grid-area: main-content;}
+ 
+
+              *{
+                  padding: 0;
+                  margin: 0;
+              }
+            .container{
+                display: grid;
+                grid-template-areas: 'header header header'
+                'side-menu main-content main-content'
+                'footer footer footer'
+                ;
+                gap:20px;
+            }
+            .header,.footer{
+                height: 100px;
+                background-color: red;
+            }
+            .side-menu{
+                height: 500px;
+                background-color: green;
+            }
+            .main-content{
+                height: 300px;
+                background-color: blue;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+
+            </div>
+            <div class="side-menu">
+    
+            </div>
+            <div class="main-content">
+    
+            </div>
+            <div class="footer">
+    
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+class component and functional component 
+Both can be used together:
+Initial Days:
+1.whenever they have state they will use class component. react hooks is not present at that time.
+2.whenver they have stateless component they will use functional component
+3.react hooks is present from 16.9 onwards
+==========================================
+Lifecyclhooks:
+useEffect(()=>{},[]) --> only one time during initial rendering 
+componentDidMount()--->only one time during initial rendering 
+==============================================
+useEffect(()=>{},[state]) -->whenever state changes happen it will call this event 
+shouldComponentUpdate()-->whenever state changes happen it will call this event
+===============================================

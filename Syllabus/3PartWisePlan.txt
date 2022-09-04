@@ -2,5 +2,6 @@ Part 1 - register and signup
 Part 2 - Crud operation using backend
 Part 3 - overall view of class component
 Part 4 - hooks and redux implemention in our project
-part 5 - authentication - authorization - interceptor,lazy 
+part 5 - authentication - authorization - interceptor,lazy loading
 Part 6 - unit Testing
+Part 7 - interview preparation(github)

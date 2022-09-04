@@ -1,0 +1,14 @@
+Box modal:
+1.width*height
+2.padding
+3.border
+4.margin
+//Every element consists of box modal in html 
+============================================
+1.width*height - content size  (w*h)
+2.border - surrounding border around the content(top,left,bottom,right) 
+3.padding - space between border and content.
+(top,left,bottom,right)
+
+
+

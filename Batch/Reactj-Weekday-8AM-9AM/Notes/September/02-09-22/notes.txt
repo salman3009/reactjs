@@ -1,0 +1,3 @@
+1.block - div,p,h1
+2.inline  - span,a,img
+3.inline-block - continue in same line with block
